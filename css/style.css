@@ -1,45 +1,134 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-body {
-    padding: 20px;
+body{
+    background-color: #e0dbd5;
 }
+
 /* Estilos para el header */
+
 header {
+    width: 100%;
+    background-image: url(../img/porche_header_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+
+}
+
+
+/*
+header div{
     display: flex;
-    align-items: center; /* Centra verticalmente los elementos */
-    justify-content: space-between; /* Asegura que los elementos se distribuyan correctamente */
-    background-color: gray;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: rgba(44, 69, 73, 0.603);
+    padding-left: 30px;
+    padding-left: 30px;
+}
+*/
+
+
+.header-container{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+    min-height: 100px;
+    top: 0;
+    background-color: rgba(44, 69, 73, 0.603);
 }
 
 
-header nav {
-    flex: 1;
+
+.button-navbar {
+    list-style-type: none; 
+    padding: 20px;
+    margin: 0; 
+    display: flex; 
 }
 
-header nav ul {
-    list-style-type: none; /* Elimina los puntos de la lista */
-    padding: 0; /* Elimina el padding */
-    margin: 0; /* Elimina el margen */
-    display: flex; /* Hace que los elementos hijos (li) se alineen en fila */
-    justify-content: center; /* Centra los elementos del menú */
-}
 
-header nav ul li {
-    margin: 0 15px; /* Espacio entre los elementos del menú */
-}
-
-header nav ul li a {
+.button-navbar li a {
     text-decoration: none; /* Elimina el subrayado de los enlaces */
-    color: #000; /* Cambia el color del texto a negro, puedes ajustarlo según prefieras */
+    color: #39374b; /* Cambia el color del texto a negro, puedes ajustarlo según prefieras */
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing:  auto;
+    font-weight: 700;
+    font-style: normal;
+    padding: 13px;
+    text-wrap: center;
+    
 }
 
-header nav ul li a:hover {
-    text-decoration: underline; /* Subraya el enlace cuando pasas el ratón por encima */
+
+.button-navbar li a:hover {
+    border-radius: 3px;
+    transition-delay: 10ms;
+    transition-duration: 500ms;
+    background-color: rgba(44, 69, 73, 0.603);
+}
+
+.header-separator{
+    margin-bottom: 20px;
+}
+
+.highlight-page{
+    border-bottom: 4px solid #b9b9ec;;
 }
 
 
+/* Responsive para mobile */
+/*
+@media only screen and (max-width: 1020px) {
+    body {
+        background-color: blue;
+    }
+
+    .header-container nav{
+        display: none;
+    }
+
+    .btn-group {
+        display: flex;
+        justify-content: space-between;
+    }
+    .bi-menu-down {
+        display: flex;
+        padding-right: 20px;
+    }
+}
+
+@media only screen and (min-width: 1020px) {
+.bi-menu-down {
+    display: none;
+}
+}
+*/
+
+.gradient{
+    height: 180px;
+    background: rgb(32, 32, 32);
+    background: linear-gradient(180deg, rgb(39, 39, 39) 50%, rgb(94, 94, 94) 100%);
+    display: flex;
+    align-items: center;
+}
+
+.gradient h3{
+    color: #b9b9ec;
+    padding-left: 20px;
+    padding-top: 100px;
+}
+
+
+.exclusive-head h3{
+    margin-top: 30px;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+}
 
 section .headsection {
     display: flex;
@@ -64,20 +153,27 @@ section p {
 
 footer {
     display: flex;
-    justify-content: center; /* Alineación horizontal al centro */
+    justify-content: space-between; /* Alineación horizontal al centro */
     align-items: center; /* Alineación vertical al centro si es necesario */
 }
 
-footer nav {
-    margin-right: 500px;
+footer nav{
+    flex: 1;
 }
 
 footer nav ul {
-list-style: none;
-display: flex;
-align-items: center;
+    list-style-type: none; /* Elimina los puntos de la lista */
+    padding: 0; /* Elimina el padding */
+    margin: 0; /* Elimina el margen */
+    display: flex; /* Hace que los elementos hijos (li) se alineen en fila */
+    justify-content: center; /* Centra los elementos del menú */
 }
 
 footer nav ul li{
-    margin: 5;
+    margin: 0 15px;
 }
+
+.img-sizer {
+    width: 300px;
+}
+
