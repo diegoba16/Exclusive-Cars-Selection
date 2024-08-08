@@ -16,23 +16,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     height: 700px;
-
-
 }
-
-
-/*
-header div{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    background-color: rgba(44, 69, 73, 0.603);
-    padding-left: 30px;
-    padding-left: 30px;
-}
-*/
-
 
 .header-container {
     margin-left: 20px;
@@ -43,9 +27,37 @@ header div{
     background-color: rgba(44, 69, 73, 0.603);
 }
 
+.header-separator {
+    margin-bottom: 20px;
+}
+
+.highlight-page {
+    border-bottom: 4px solid #b9b9ec;
+    ;
+}
+
+.after-header {
+    margin-top: 50px;
+    height: 180px;
+    display: flex;
+}
+
+.after-header h3 {
+    color: #000000;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    padding: 0px;
+    margin-left: 250px;
+    margin-top: 100px;
+
+
+}
+
+
 .carousel-autos {
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 250px;
+    padding-right: 250px;
 }
 
 .carousel-inner {
@@ -86,36 +98,6 @@ header div{
     background-color: rgba(44, 69, 73, 0.603);
 }
 
-.header-separator {
-    margin-bottom: 20px;
-}
-
-.highlight-page {
-    border-bottom: 4px solid #b9b9ec;
-    ;
-}
-
-
-
-
-
-.gradient {
-    margin-top: 50px;
-    height: 180px;
-    display: flex;
-}
-
-.gradient h3 {
-    color: #000000;
-    font-family: "Montserrat", sans-serif;
-    font-weight: bolder;
-    font-size: 50px;
-    padding: 0px;
-    margin-left: 200px;
-    margin-top: 100px;
-
-
-}
 
 
 .parrafos {
@@ -263,15 +245,11 @@ header div{
 
 
 footer {
-
-    /* Alineación horizontal al centro */
-    /* Alineación vertical al centro si es necesario */
     background-color: #121416;
     background-image: linear-gradient(180deg, rgba(18, 20, 22, 1) 23%, rgba(255, 255, 255, 0) 65%), url(../img/footer-background.jpg);
     height: 1000px;
     background-repeat: no-repeat;
-
-
+    background-size: cover;
 }
 
 .footer-border {
@@ -286,14 +264,13 @@ footer {
 }
 
 .logo-footer {
-    background: #939ad8;
-    background: linear-gradient(180deg, rgba(147, 154, 216, 0.756827731092437) 0%, rgba(164, 185, 217, 0.6111694677871149) 65%, rgba(179, 195, 212, 0.16859243697478987) 100%);
+    background-color: rgba(45, 61, 79, 0.881);
     padding: 30px;
     text-align: center;
     border-radius: 20px;
     margin-top: 100px;
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-left: 100%;
+    margin-right: 100%;
 }
 
 .logo-footer img {
@@ -301,8 +278,8 @@ footer {
 }
 
 .footer-redes {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 100%;
+    margin-right: 100%;
 }
 
 .rrss-img {
@@ -338,9 +315,9 @@ footer {
     padding: 15px;
     border-radius: 20px;
     background-color: rgba(45, 61, 79, 0.881);
-    box-shadow: 21px 20px 22px -5px rgba(0,0,0,0.63);
-    -webkit-box-shadow: 21px 20px 22px -5px rgba(0,0,0,0.63);
-    -moz-box-shadow: 21px 20px 22px -5px rgba(0,0,0,0.63);
+    box-shadow: 21px 20px 22px -5px rgba(0, 0, 0, 0.63);
+    -webkit-box-shadow: 21px 20px 22px -5px rgba(0, 0, 0, 0.63);
+    -moz-box-shadow: 21px 20px 22px -5px rgba(0, 0, 0, 0.63);
 }
 
 .footer-info h4 {
@@ -351,6 +328,61 @@ footer {
 
 .img-sizer {
     width: 300px;
+}
+
+/* Responsive para big screen */
+
+@media only screen and (min-width: 2400px) {
+    .after-header h3 {
+        color: #000000;
+        font-family: "Montserrat", sans-serif;
+        font-weight: bolder;
+        font-size: 50px;
+        padding: 0px;
+        margin-left: 430px;
+        margin-top: 100px;
+    
+    
+    }
+    
+    .parrafos{
+        margin-top: 330px;
+        margin-bottom: 240px;
+    }
+
+    .parrafos h1{
+        margin-bottom: 125px;
+        font: 100px;
+    }
+
+    .parrafos p{
+        margin-left: 35%;
+        margin-right: 35%;
+        font-size: 19px;
+    }
+
+    .new-cars-grid h3{
+        font-size: 70px;
+        margin-bottom: 20px;
+    }
+    
+    .carousel-autos {
+        padding-left: 430px;
+        padding-right: 430px;
+    }
+
+    .grid-container{
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+    
+    .grid-item {
+        margin: 85px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        padding: 50px;
+    }
+
 }
 
 /* Responsive para mobile */
@@ -401,7 +433,7 @@ footer {
         margin-right: 200px;
     }
 
-    .gradient {
+    .after-header {
         display: block;
         margin-top: 100px;
         height: 200px;
@@ -410,7 +442,7 @@ footer {
 
 
 
-    .gradient h3 {
+    .after-header h3 {
         color: #000000;
         font-weight: bolder;
         font-size: 50px;
@@ -479,8 +511,7 @@ footer {
         background-image: linear-gradient(180deg, rgba(18, 20, 22, 1) 23%, rgba(255, 255, 255, 0) 65%), url(../img/footer-background-mobile.png);
         height: 900px;
         background-repeat: no-repeat;
-
-
+        background-size:auto;
     }
 
     .logo-footer {
@@ -530,7 +561,7 @@ footer {
             padding: 0px;
             text-align: center;
             margin-bottom: 100px;
-        }    
+        }
 
         .footer-info {
             margin: 0 25px;
@@ -554,7 +585,7 @@ footer {
             display: flex;
             flex-wrap: wrap;
         }
-    
+
         .rrss-img {
             width: 30px;
             margin: 0 7px;
@@ -564,3 +595,4 @@ footer {
 
     }
 }
+
