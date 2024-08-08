@@ -125,24 +125,22 @@ header div{
 }
 
 .parrafos h1 {
-    margin-bottom: 75px;
+    margin-bottom: 50px;
     color: #000000;
     font-family: "Montserrat", sans-serif;
     font-weight: bolder;
-    font-size: 75px;
+    font-size: 60px;
     align-items: center;
 }
 
 .parrafos p {
     margin-left: 320px;
     margin-right: 320px;
-    font-size: 18px;
 }
 
 .new-cars-grid {
     background: rgb(240, 241, 250);
     background: linear-gradient(180deg, rgba(240, 241, 250, 0.8688725490196079) 0%, rgba(130, 135, 145, 1) 37%, rgba(18, 20, 22, 1) 67%);
-    padding-bottom: 60px;
 }
 
 .new-cars-grid h3 {
@@ -158,165 +156,74 @@ header div{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-left: 170px;
-    margin-right: 170px;
-}
-
-.grid-item {
-    border: 2px solid rgba(160, 183, 218, 0.226);
-    background-color: rgba(62, 76, 95, 0.158);
-    padding: 50px;
-    margin: 50px;
-    width: 200px;
-    height: 200px;
-}
-
-
-.logo-img{
-    width: 115px;
-    position: absolute;
-    margin-top: -9px;
-    margin-left: -10px;
-    z-index: 1;
-}
-
-.logo-nme{
-    width: 180px;
-    position: absolute;
-    margin-top: 10px;
-    margin-left: -40px;
-    z-index: 1;
-    opacity: 0;
-}
-
-.bmw-name{
-    margin-top: 5px;
-}
-
-.merc-name{
-    margin-top: 35px;
-}
-
-.audi-img{
-    width: 130px;
-    margin-top: 25px;
-    margin-left: -17px;
-}
-
-.audi-name{
-    margin-top: 28px;
-    margin-left: -42px;
-}
-
-.porsche-img{
-    width: 90px;
-    margin-top: -10px;
-    margin-left: 3px;
-}
-
-.porsche-name{
-    width: 180px;
-    margin-top: 42px;
-    margin-left: -42px;
-}
-
-.ferrari-img{
-    width: 130px;
-    margin-top: -17px;
-    margin-left: -17px;
-}
-
-.ferrari-name{
-    margin-left: -42px;
-    margin-top: 28px;
-}
-
-.lamborghini_img{
-    width: 110px;
-    margin-top: -15px;
-    margin-left: -7px;
-}
-
-.lamborghini-name{
-    width: 194px;
-    position: absolute;
-    margin-top: 21px;
-    margin-left: -49px;
-}
-
-.grid-item:hover {
-    border: 2px solid rgba(50, 49, 71, 0.904);
-    background: #939ad8;
-    background: linear-gradient(180deg, rgba(147,154,216,0.756827731092437) 0%, rgba(164,185,217,0.6111694677871149) 65%, rgba(179,195,212,0.16859243697478987) 100%);
-    transition: 300ms;
-}
-
-.grid-item:hover .logo-img{
-    opacity: 0;
-    transition: 500ms;
-}
-
-.grid-item:hover .logo-nme{
-    opacity: 1;
-    transition: 1.5s;
-}
-
-
-footer {
-
-    /* Alineación horizontal al centro */
-    /* Alineación vertical al centro si es necesario */
-    background-color: #121416;
-    background-image: linear-gradient(180deg, rgba(18,20,22,1) 23%, rgba(255,255,255,0) 65%), url(../img/footer-background.jpg);
-    height: 1000px;
-    background-repeat: no-repeat;
-
-    
-}
-
-.footer-border {
-    border: 2px solid #b9b9eca4;
-    margin: 0 50px;
-}
-.footer-container{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.logo-footer{
-    background: #939ad8;
-    background: linear-gradient(180deg, rgba(147,154,216,0.756827731092437) 0%, rgba(164,185,217,0.6111694677871149) 65%, rgba(179,195,212,0.16859243697478987) 100%);
-    padding: 30px;
-    text-align: center;
-    border-radius: 20px;
-    margin-top: 100px;
-    margin-left: 400px;
-    margin-right: 400px;
-}
-
-.logo-footer img{
-    width: 300px;
-}
-
-.footer-redes {
     margin-left: 100px;
     margin-right: 100px;
 }
 
-.rrss-img{
-    width: 60px;
-    filter: invert(88%) sepia(1%) saturate(2115%) hue-rotate(199deg) brightness(110%) contrast(96%);
-    margin: 0 20px;
-    margin-top: 80px;
+.grid-item {
+    border: 2px solid rgba(143, 143, 143, 0.8);
+    background-color: #f0f1fa67;
+    padding: 50px;
+    text-align: center;
+    margin: 50px;
+    width: 300px;
+    height: 300px;
+}
+
+.grid-item img {
+    width: 150px;
+    margin-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+.grid-item:hover {
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    transition: 300ms;
+}
+
+.grid-item h4{
+    visibility: hidden;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #000000;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.grid-item:hover h4{
+    visibility: visible;
+    transition: 1s;
+    font-size: 23px;
+    
+}
+
+.grid-item:hover img{
+    width: 100px;
+    margin-bottom: 10px;
+    transition: 500ms;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+footer {
     display: flex;
+    justify-content: space-between;
+    /* Alineación horizontal al centro */
+    align-items: center;
+    /* Alineación vertical al centro si es necesario */
+    background-color: #121416;
 }
 
-.rrss-img:hover{
-    filter: invert(81%) sepia(64%) saturate(2965%) hue-rotate(193deg) brightness(91%) contrast(85%);
+footer nav {
+    flex: 1;
 }
 
-.footer-redes ul {
+footer nav ul {
     list-style-type: none;
     /* Elimina los puntos de la lista */
     padding: 0;
@@ -329,20 +236,8 @@ footer {
     /* Centra los elementos del menú */
 }
 
-.footer-info{
-    margin: 0 300px;
-    margin-top: 90px;
-    color: #F0F1FA;
-    text-align: center;
-    padding: 15px;
-    border-radius: 20px;
-    background-color: #262653ce;
-}
-
-.footer-info h4{
-    font-family: "Montserrat", sans-serif;
-    font-weight: bolder;
-    margin-bottom: 35px;
+footer nav ul li {
+    margin: 0 15px;
 }
 
 .img-sizer {
@@ -351,8 +246,7 @@ footer {
 
 /* Responsive para mobile */
 
-
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 1020px) {
 
     header {
         width: 100%;
@@ -467,35 +361,18 @@ footer {
         margin-right: 100px;
     }
     
-
-    .logo-footer{
-        padding: 15px;
-        border-radius: 10px;
-        margin-top: 100px;
-    }
-
-    .logo-footer img{
-        width: 250px;
+    .grid-item {
+        background-color: #f0f1fa67;
+        min-height: 250px;
     }
     
-
-    .footer-redes {
-        margin-left: 100px;
-        margin-right: 100px;
-        display: flex;
-        flex-wrap: wrap;
+    .grid-item img {
+        width: 100px;
     }
     
-    .rrss-img{
-        width: 45px;
-        filter: invert(88%) sepia(1%) saturate(2115%) hue-rotate(199deg) brightness(110%) contrast(96%);
-        margin: 0 7px;
-        margin-top: 80px;
-        display: flex;
+    .grid-item:hover {
+        border: 2px solid rgba(0, 0, 0, 0.8);
+        transition: 300ms;
     }
 
-    .footer-info{
-        margin: 0 60px;
-        margin-top: 90px;
-    }
 }
