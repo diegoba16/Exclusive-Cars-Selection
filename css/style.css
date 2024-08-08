@@ -172,7 +172,7 @@ header div{
 }
 
 
-.logo-img{
+.logo-img {
     width: 115px;
     position: absolute;
     margin-top: -9px;
@@ -180,7 +180,7 @@ header div{
     z-index: 1;
 }
 
-.logo-nme{
+.logo-nme {
     width: 180px;
     position: absolute;
     margin-top: 10px;
@@ -189,55 +189,55 @@ header div{
     opacity: 0;
 }
 
-.bmw-name{
+.bmw-name {
     margin-top: 5px;
 }
 
-.merc-name{
+.merc-name {
     margin-top: 35px;
 }
 
-.audi-img{
+.audi-img {
     width: 130px;
     margin-top: 25px;
     margin-left: -17px;
 }
 
-.audi-name{
+.audi-name {
     margin-top: 28px;
     margin-left: -42px;
 }
 
-.porsche-img{
+.porsche-img {
     width: 90px;
     margin-top: -10px;
     margin-left: 3px;
 }
 
-.porsche-name{
+.porsche-name {
     width: 180px;
     margin-top: 42px;
     margin-left: -42px;
 }
 
-.ferrari-img{
+.ferrari-img {
     width: 130px;
     margin-top: -17px;
     margin-left: -17px;
 }
 
-.ferrari-name{
+.ferrari-name {
     margin-left: -42px;
     margin-top: 28px;
 }
 
-.lamborghini_img{
+.lamborghini_img {
     width: 110px;
     margin-top: -15px;
     margin-left: -7px;
 }
 
-.lamborghini-name{
+.lamborghini-name {
     width: 194px;
     position: absolute;
     margin-top: 21px;
@@ -247,16 +247,16 @@ header div{
 .grid-item:hover {
     border: 2px solid rgba(50, 49, 71, 0.904);
     background: #939ad8;
-    background: linear-gradient(180deg, rgba(147,154,216,0.756827731092437) 0%, rgba(164,185,217,0.6111694677871149) 65%, rgba(179,195,212,0.16859243697478987) 100%);
+    background: linear-gradient(180deg, rgba(147, 154, 216, 0.756827731092437) 0%, rgba(164, 185, 217, 0.6111694677871149) 65%, rgba(179, 195, 212, 0.16859243697478987) 100%);
     transition: 300ms;
 }
 
-.grid-item:hover .logo-img{
+.grid-item:hover .logo-img {
     opacity: 0;
     transition: 500ms;
 }
 
-.grid-item:hover .logo-nme{
+.grid-item:hover .logo-nme {
     opacity: 1;
     transition: 1.5s;
 }
@@ -267,26 +267,27 @@ footer {
     /* Alineación horizontal al centro */
     /* Alineación vertical al centro si es necesario */
     background-color: #121416;
-    background-image: linear-gradient(180deg, rgba(18,20,22,1) 23%, rgba(255,255,255,0) 65%), url(../img/footer-background.jpg);
+    background-image: linear-gradient(180deg, rgba(18, 20, 22, 1) 23%, rgba(255, 255, 255, 0) 65%), url(../img/footer-background.jpg);
     height: 1000px;
     background-repeat: no-repeat;
 
-    
+
 }
 
 .footer-border {
     border: 2px solid #b9b9eca4;
     margin: 0 50px;
 }
-.footer-container{
+
+.footer-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.logo-footer{
+.logo-footer {
     background: #939ad8;
-    background: linear-gradient(180deg, rgba(147,154,216,0.756827731092437) 0%, rgba(164,185,217,0.6111694677871149) 65%, rgba(179,195,212,0.16859243697478987) 100%);
+    background: linear-gradient(180deg, rgba(147, 154, 216, 0.756827731092437) 0%, rgba(164, 185, 217, 0.6111694677871149) 65%, rgba(179, 195, 212, 0.16859243697478987) 100%);
     padding: 30px;
     text-align: center;
     border-radius: 20px;
@@ -295,7 +296,7 @@ footer {
     margin-right: 400px;
 }
 
-.logo-footer img{
+.logo-footer img {
     width: 300px;
 }
 
@@ -304,7 +305,7 @@ footer {
     margin-right: 100px;
 }
 
-.rrss-img{
+.rrss-img {
     width: 60px;
     filter: invert(88%) sepia(1%) saturate(2115%) hue-rotate(199deg) brightness(110%) contrast(96%);
     margin: 0 20px;
@@ -312,7 +313,7 @@ footer {
     display: flex;
 }
 
-.rrss-img:hover{
+.rrss-img:hover {
     filter: invert(81%) sepia(64%) saturate(2965%) hue-rotate(193deg) brightness(91%) contrast(85%);
 }
 
@@ -329,17 +330,20 @@ footer {
     /* Centra los elementos del menú */
 }
 
-.footer-info{
+.footer-info {
     margin: 0 300px;
     margin-top: 90px;
     color: #F0F1FA;
     text-align: center;
     padding: 15px;
     border-radius: 20px;
-    background-color: #262653ce;
+    background-color: rgba(45, 61, 79, 0.881);
+    box-shadow: 21px 20px 22px -5px rgba(0,0,0,0.63);
+    -webkit-box-shadow: 21px 20px 22px -5px rgba(0,0,0,0.63);
+    -moz-box-shadow: 21px 20px 22px -5px rgba(0,0,0,0.63);
 }
 
-.footer-info h4{
+.footer-info h4 {
     font-family: "Montserrat", sans-serif;
     font-weight: bolder;
     margin-bottom: 35px;
@@ -361,19 +365,17 @@ footer {
         background-size: cover;
         height: 700px;
     }
+
     .button-navbar li a {
         text-decoration: none;
-        /* Elimina el subrayado de los enlaces */
-        color: #dddde3;
-        /* Cambia el color del texto a negro, puedes ajustarlo según prefieras */
+        color: #cfcfe4;
         font-family: "Montserrat", sans-serif;
         font-optical-sizing: auto;
         font-weight: 700;
         font-style: normal;
         padding: 13px;
         text-wrap: center;
-        margin-right: 200px;
-    
+        margin-right: 30px;
     }
 
     .header-container {
@@ -384,6 +386,7 @@ footer {
         top: 0;
         background-color: rgba(45, 74, 79, 0.881);
     }
+
     .button-navbar li a:hover {
         border-radius: 3px;
         transition-delay: 10ms;
@@ -445,8 +448,9 @@ footer {
 
     .parrafos p {
         margin-top: 70px;
-        margin-left: 20px ;
-        margin-right: 20px ;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 16px;
     }
 
     .new-cars-grid h3 {
@@ -458,37 +462,37 @@ footer {
         text-align: center;
         margin-bottom: 100px;
     }
-    
+
     .grid-container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
         margin-left: 0px;
         margin-right: 0px;
     }
-    
+
     .grid-item {
-        border: 2px solid rgba(160, 183, 218, 0.226);
-        background-color: rgba(62, 76, 95, 0.158);
         margin: 40px;
         margin-top: 40px;
         margin-bottom: 40px;
         padding: 50px;
-        width: 200px;
-        height: 200px;
     }
-    
 
-    .logo-footer{
+    footer {
+        background-image: linear-gradient(180deg, rgba(18, 20, 22, 1) 23%, rgba(255, 255, 255, 0) 65%), url(../img/footer-background-mobile.png);
+        height: 900px;
+        background-repeat: no-repeat;
+
+
+    }
+
+    .logo-footer {
         padding: 15px;
         border-radius: 10px;
         margin-top: 100px;
     }
 
-    .logo-footer img{
+    .logo-footer img {
         width: 250px;
     }
-    
+
 
     .footer-redes {
         margin-left: 100px;
@@ -496,21 +500,67 @@ footer {
         display: flex;
         flex-wrap: wrap;
     }
-    
-    .rrss-img{
+
+    .rrss-img {
         width: 45px;
-        filter: invert(88%) sepia(1%) saturate(2115%) hue-rotate(199deg) brightness(110%) contrast(96%);
         margin: 0 7px;
         margin-top: 80px;
         display: flex;
     }
 
-    .footer-info{
-        margin: 0 60px;
+    .footer-info {
+        margin: 0 45px;
         margin-top: 90px;
     }
 
-    @media only screen and (max-width: 430px) {
+    @media only screen and (max-width: 320px) {
+
+        .parrafos h1 {
+            margin-bottom: 50px;
+            color: #000000;
+            font-family: "Montserrat", sans-serif;
+            font-weight: bolder;
+            font-size: 40px;
+            align-items: center;
+        }
+
+        .new-cars-grid h3 {
+            color: #000000;
+            font-size: 30px;
+            padding: 0px;
+            text-align: center;
+            margin-bottom: 100px;
+        }    
+
+        .footer-info {
+            margin: 0 25px;
+            margin-top: 90px;
+        }
+
+
+        .logo-footer {
+            padding: 6px;
+            border-radius: 7px;
+            margin-top: 100px;
+        }
+
+        .logo-footer img {
+            width: 190px;
+        }
+
+        .footer-redes {
+            margin-left: 5px;
+            margin-right: 5px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+    
+        .rrss-img {
+            width: 30px;
+            margin: 0 7px;
+            margin-top: 80px;
+            display: flex;
+        }
 
     }
 }
