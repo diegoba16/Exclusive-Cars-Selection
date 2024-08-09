@@ -1,0 +1,18 @@
+
+// Base
+@import './base/reset';
+
+// Layouts
+@import './layout/header';
+@import './layout/carousel';
+@import './layout/parrafos';
+@import './layout/new-cars-grid';
+@import './layout/footer';
+
+// Components
+@import './components/grid-items';
+
+ //Media
+ @import './layout/media-tablets-phones';
+ @import './layout/media-bigscreens';
+ @import './layout/media-lowres-phones';

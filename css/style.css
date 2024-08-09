@@ -1,598 +1,497 @@
+@charset "UTF-8";
 * {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color: #F0F1FA;
+  background-color: #F0F1FA;
 }
 
-/* Estilos para el header */
-
 header {
-    width: 100%;
-    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 70%, rgba(240, 241, 250, 1) 100%), url(../img/porche_header_background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 700px;
+  width: 100%;
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 70%, rgb(240, 241, 250) 100%), url(../img/porche_header_background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
 }
 
 .header-container {
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 15px;
-    min-height: 100px;
-    top: 0;
-    background-color: rgba(44, 69, 73, 0.603);
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 15px;
+  min-height: 100px;
+  top: 0;
+  background-color: rgba(44, 69, 73, 0.603);
 }
 
 .header-separator {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.button-navbar {
+  list-style-type: none;
+  padding: 20px;
+  margin: 0;
+  display: flex;
+}
+.button-navbar li a {
+  text-decoration: none;
+  /* Elimina el subrayado de los enlaces */
+  color: #39374b;
+  /* Cambia el color del texto a negro, puedes ajustarlo según prefieras */
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  padding: 13px;
+  text-wrap: center;
+}
+.button-navbar li a:hover {
+  border-radius: 3px;
+  transition-delay: 10ms;
+  transition-duration: 500ms;
+  background-color: rgba(44, 69, 73, 0.603);
 }
 
 .highlight-page {
-    border-bottom: 4px solid #b9b9ec;
-    ;
+  border-bottom: 4px solid #b9b9ec;
 }
 
 .after-header {
-    margin-top: 50px;
-    height: 180px;
-    display: flex;
+  margin-top: 50px;
+  height: 180px;
+  display: flex;
 }
-
 .after-header h3 {
-    color: #000000;
-    font-family: "Montserrat", sans-serif;
-    font-weight: bolder;
-    font-size: 50px;
-    padding: 0px;
-    margin-left: 250px;
-    margin-top: 100px;
-
-
+  color: #000000;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  font-size: 50px;
+  padding: 0px;
+  margin-left: 250px;
+  margin-top: 100px;
 }
-
 
 .carousel-autos {
-    padding-left: 250px;
-    padding-right: 250px;
+  padding-left: 250px;
+  padding-right: 250px;
 }
 
 .carousel-inner {
-    border-radius: 20px;
+  border-radius: 20px;
 }
 
-
-
-
-
-.button-navbar {
-    list-style-type: none;
-    padding: 20px;
-    margin: 0;
-    display: flex;
+.parrafos {
+  text-align: center;
+  margin-top: 250px;
+  margin-bottom: 150px;
+}
+.parrafos h1 {
+  margin-bottom: 75px;
+  color: #000000;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  font-size: 75px;
+  align-items: center;
+}
+.parrafos p {
+  margin-left: 320px;
+  margin-right: 320px;
+  font-size: 18px;
 }
 
+.new-cars-grid {
+  background: rgb(240, 241, 250);
+  background: linear-gradient(180deg, rgba(240, 241, 250, 0.868872549) 0%, rgb(130, 135, 145) 37%, rgb(18, 20, 22) 67%);
+  padding-bottom: 60px;
+}
+.new-cars-grid h3 {
+  color: #000000;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  font-size: 50px;
+  padding: 0px;
+  text-align: center;
+}
 
-.button-navbar li a {
+footer {
+  background-color: #121416;
+  background-image: linear-gradient(180deg, rgb(18, 20, 22) 23%, rgba(255, 255, 255, 0) 65%), url(../img/footer-background.jpg);
+  height: 1000px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+footer .footer-border {
+  border: 2px solid rgba(185, 185, 236, 0.6431372549);
+  margin: 0 50px;
+}
+footer .footer-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+footer .footer-container .logo-footer {
+  background-color: rgba(45, 61, 79, 0.881);
+  padding: 30px;
+  text-align: center;
+  border-radius: 20px;
+  margin-top: 100px;
+  margin-left: 100%;
+  margin-right: 100%;
+}
+footer .footer-container .logo-footer img {
+  width: 300px;
+}
+footer .footer-container .footer-redes {
+  margin-left: 100%;
+  margin-right: 100%;
+}
+footer .footer-container .footer-redes .rrss-img {
+  width: 60px;
+  filter: invert(88%) sepia(1%) saturate(2115%) hue-rotate(199deg) brightness(110%) contrast(96%);
+  margin: 0 20px;
+  margin-top: 80px;
+  display: flex;
+}
+footer .footer-container .footer-redes .rrss-img:hover {
+  filter: invert(81%) sepia(64%) saturate(2965%) hue-rotate(193deg) brightness(91%) contrast(85%);
+}
+footer .footer-container .footer-redes ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+footer .footer-container .footer-info {
+  margin: 0 300px;
+  margin-top: 90px;
+  color: #F0F1FA;
+  text-align: center;
+  padding: 15px;
+  border-radius: 20px;
+  background-color: rgba(45, 61, 79, 0.881);
+  box-shadow: 21px 20px 22px -5px rgba(0, 0, 0, 0.63);
+  -webkit-box-shadow: 21px 20px 22px -5px rgba(0, 0, 0, 0.63);
+  -moz-box-shadow: 21px 20px 22px -5px rgba(0, 0, 0, 0.63);
+}
+footer .footer-container .footer-info h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  margin-bottom: 35px;
+}
+
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 19%;
+  margin-right: 19%;
+}
+.grid-container .grid-item {
+  border: 2px solid rgba(160, 183, 218, 0.226);
+  background-color: rgba(62, 76, 95, 0.158);
+  padding: 50px;
+  margin: 50px;
+  width: 200px;
+  height: 200px;
+}
+.grid-container .grid-item .logo-img {
+  width: 115px;
+  position: absolute;
+  margin-top: -9px;
+  margin-left: -10px;
+  z-index: 1;
+}
+.grid-container .grid-item .logo-nme {
+  width: 180px;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: -40px;
+  z-index: 1;
+  opacity: 0;
+}
+.grid-container .grid-item .audi-img {
+  width: 130px;
+  margin-top: 25px;
+  margin-left: -17px;
+}
+.grid-container .grid-item .porsche-img {
+  width: 90px;
+  margin-top: -10px;
+  margin-left: 3px;
+}
+.grid-container .grid-item .ferrari-img {
+  width: 130px;
+  margin-top: -17px;
+  margin-left: -17px;
+}
+.grid-container .grid-item .lamborghini_img {
+  width: 110px;
+  margin-top: -15px;
+  margin-left: -7px;
+}
+.grid-container .grid-item .bmw-name {
+  margin-top: 5px;
+}
+.grid-container .grid-item .merc-name {
+  margin-top: 35px;
+}
+.grid-container .grid-item .audi-name {
+  margin-top: 28px;
+  margin-left: -42px;
+}
+.grid-container .grid-item .porsche-name {
+  width: 180px;
+  margin-top: 42px;
+  margin-left: -42px;
+}
+.grid-container .grid-item .ferrari-name {
+  margin-left: -42px;
+  margin-top: 28px;
+}
+.grid-container .grid-item .lamborghini-name {
+  width: 194px;
+  position: absolute;
+  margin-top: 21px;
+  margin-left: -49px;
+}
+.grid-container .grid-item:hover {
+  border: 2px solid rgba(50, 49, 71, 0.904);
+  background: #939ad8;
+  background: linear-gradient(180deg, rgba(147, 154, 216, 0.7568277311) 0%, rgba(164, 185, 217, 0.6111694678) 65%, rgba(179, 195, 212, 0.168592437) 100%);
+  transition: 300ms;
+}
+.grid-container .grid-item:hover .logo-img {
+  opacity: 0;
+  transition: 500ms;
+}
+.grid-container .grid-item:hover .logo-nme {
+  opacity: 1;
+  transition: 1.5s;
+}
+
+@media only screen and (max-width: 991px) {
+  header {
+    width: 100%;
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 70%, rgb(240, 241, 250) 100%), url(../img/porche_header_background_mvl.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+  }
+  .button-navbar li a {
     text-decoration: none;
-    /* Elimina el subrayado de los enlaces */
-    color: #39374b;
-    /* Cambia el color del texto a negro, puedes ajustarlo según prefieras */
+    color: #cfcfe4;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
     padding: 13px;
     text-wrap: center;
-
-}
-
-
-.button-navbar li a:hover {
+    margin-right: 30px;
+  }
+  .header-container {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+    min-height: 100px;
+    top: 0;
+    background-color: rgba(45, 74, 79, 0.881);
+  }
+  .button-navbar li a:hover {
     border-radius: 3px;
     transition-delay: 10ms;
     transition-duration: 500ms;
-    background-color: rgba(44, 69, 73, 0.603);
-}
-
-
-
-.parrafos {
+    background-color: rgba(39, 67, 72, 0.933);
+    color: #F0F1FA;
+  }
+  .highlight-page {
+    border-bottom: 4px solid #b9b9ec;
+    margin-right: 200px;
+  }
+  .after-header {
+    display: block;
+    margin-top: 100px;
+    height: 200px;
     text-align: center;
-    margin-top: 250px;
-    margin-bottom: 150px;
-}
-
-.parrafos h1 {
-    margin-bottom: 75px;
+  }
+  .after-header h3 {
+    color: #000000;
+    font-weight: bolder;
+    font-size: 50px;
+    padding: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    text-align: center;
+  }
+  .carousel-autos {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 10px;
+  }
+  .carousel-inner {
+    border-radius: 5px;
+  }
+  .parrafos {
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 10px;
+    margin-bottom: 200px;
+  }
+  .parrafos h1 {
+    margin-bottom: 50px;
     color: #000000;
     font-family: "Montserrat", sans-serif;
     font-weight: bolder;
-    font-size: 75px;
+    font-size: 60px;
     align-items: center;
-}
-
-.parrafos p {
-    margin-left: 320px;
-    margin-right: 320px;
-    font-size: 18px;
-}
-
-.new-cars-grid {
-    background: rgb(240, 241, 250);
-    background: linear-gradient(180deg, rgba(240, 241, 250, 0.8688725490196079) 0%, rgba(130, 135, 145, 1) 37%, rgba(18, 20, 22, 1) 67%);
-    padding-bottom: 60px;
-}
-
-.new-cars-grid h3 {
+  }
+  .parrafos p {
+    margin-top: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 16px;
+  }
+  .new-cars-grid h3 {
     color: #000000;
     font-family: "Montserrat", sans-serif;
     font-weight: bolder;
     font-size: 50px;
     padding: 0px;
     text-align: center;
-}
-
-.grid-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-left: 170px;
-    margin-right: 170px;
-}
-
-.grid-item {
-    border: 2px solid rgba(160, 183, 218, 0.226);
-    background-color: rgba(62, 76, 95, 0.158);
+    margin-bottom: 100px;
+  }
+  .grid-container {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .grid-container .grid-item {
+    margin: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     padding: 50px;
-    margin: 50px;
-    width: 200px;
-    height: 200px;
-}
-
-
-.logo-img {
-    width: 115px;
-    position: absolute;
-    margin-top: -9px;
-    margin-left: -10px;
-    z-index: 1;
-}
-
-.logo-nme {
-    width: 180px;
-    position: absolute;
-    margin-top: 10px;
-    margin-left: -40px;
-    z-index: 1;
-    opacity: 0;
-}
-
-.bmw-name {
-    margin-top: 5px;
-}
-
-.merc-name {
-    margin-top: 35px;
-}
-
-.audi-img {
-    width: 130px;
-    margin-top: 25px;
-    margin-left: -17px;
-}
-
-.audi-name {
-    margin-top: 28px;
-    margin-left: -42px;
-}
-
-.porsche-img {
-    width: 90px;
-    margin-top: -10px;
-    margin-left: 3px;
-}
-
-.porsche-name {
-    width: 180px;
-    margin-top: 42px;
-    margin-left: -42px;
-}
-
-.ferrari-img {
-    width: 130px;
-    margin-top: -17px;
-    margin-left: -17px;
-}
-
-.ferrari-name {
-    margin-left: -42px;
-    margin-top: 28px;
-}
-
-.lamborghini_img {
-    width: 110px;
-    margin-top: -15px;
-    margin-left: -7px;
-}
-
-.lamborghini-name {
-    width: 194px;
-    position: absolute;
-    margin-top: 21px;
-    margin-left: -49px;
-}
-
-.grid-item:hover {
-    border: 2px solid rgba(50, 49, 71, 0.904);
-    background: #939ad8;
-    background: linear-gradient(180deg, rgba(147, 154, 216, 0.756827731092437) 0%, rgba(164, 185, 217, 0.6111694677871149) 65%, rgba(179, 195, 212, 0.16859243697478987) 100%);
-    transition: 300ms;
-}
-
-.grid-item:hover .logo-img {
-    opacity: 0;
-    transition: 500ms;
-}
-
-.grid-item:hover .logo-nme {
-    opacity: 1;
-    transition: 1.5s;
-}
-
-
-footer {
-    background-color: #121416;
-    background-image: linear-gradient(180deg, rgba(18, 20, 22, 1) 23%, rgba(255, 255, 255, 0) 65%), url(../img/footer-background.jpg);
-    height: 1000px;
+  }
+  footer {
+    background-image: linear-gradient(180deg, rgb(18, 20, 22) 23%, rgba(255, 255, 255, 0) 65%), url(../img/footer-background-mobile.png);
+    height: 900px;
     background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.footer-border {
-    border: 2px solid #b9b9eca4;
-    margin: 0 50px;
-}
-
-.footer-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.logo-footer {
-    background-color: rgba(45, 61, 79, 0.881);
-    padding: 30px;
-    text-align: center;
-    border-radius: 20px;
+    background-size: auto;
+  }
+  footer .footer-container .logo-footer {
+    padding: 15px;
+    border-radius: 10px;
     margin-top: 100px;
-    margin-left: 100%;
-    margin-right: 100%;
-}
-
-.logo-footer img {
-    width: 300px;
-}
-
-.footer-redes {
-    margin-left: 100%;
-    margin-right: 100%;
-}
-
-.rrss-img {
-    width: 60px;
-    filter: invert(88%) sepia(1%) saturate(2115%) hue-rotate(199deg) brightness(110%) contrast(96%);
-    margin: 0 20px;
+  }
+  footer .footer-container .logo-footer img {
+    width: 250px;
+  }
+  footer .footer-container .footer-redes {
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  footer .footer-container .footer-redes .rrss-img {
+    width: 45px;
+    margin: 0 7px;
     margin-top: 80px;
     display: flex;
-}
-
-.rrss-img:hover {
-    filter: invert(81%) sepia(64%) saturate(2965%) hue-rotate(193deg) brightness(91%) contrast(85%);
-}
-
-.footer-redes ul {
-    list-style-type: none;
-    /* Elimina los puntos de la lista */
-    padding: 0;
-    /* Elimina el padding */
-    margin: 0;
-    /* Elimina el margen */
-    display: flex;
-    /* Hace que los elementos hijos (li) se alineen en fila */
-    justify-content: center;
-    /* Centra los elementos del menú */
-}
-
-.footer-info {
-    margin: 0 300px;
+  }
+  footer .footer-container .footer-info {
+    margin: 0 45px;
     margin-top: 90px;
-    color: #F0F1FA;
-    text-align: center;
-    padding: 15px;
-    border-radius: 20px;
-    background-color: rgba(45, 61, 79, 0.881);
-    box-shadow: 21px 20px 22px -5px rgba(0, 0, 0, 0.63);
-    -webkit-box-shadow: 21px 20px 22px -5px rgba(0, 0, 0, 0.63);
-    -moz-box-shadow: 21px 20px 22px -5px rgba(0, 0, 0, 0.63);
+  }
 }
-
-.footer-info h4 {
+@media only screen and (min-width: 2400px) {
+  .after-header h3 {
+    color: #000000;
     font-family: "Montserrat", sans-serif;
     font-weight: bolder;
-    margin-bottom: 35px;
+    font-size: 50px;
+    padding: 0px;
+    margin-left: 430px;
+    margin-top: 100px;
+  }
+  .parrafos {
+    margin-top: 330px;
+    margin-bottom: 240px;
+  }
+  .parrafos h1 {
+    margin-bottom: 125px;
+    font: 100px;
+  }
+  .parrafos p {
+    margin-left: 35%;
+    margin-right: 35%;
+    font-size: 19px;
+  }
+  .new-cars-grid h3 {
+    font-size: 70px;
+    margin-bottom: 20px;
+  }
+  .carousel-autos {
+    padding-left: 430px;
+    padding-right: 430px;
+  }
+  .grid-container {
+    margin-left: 32%;
+    margin-right: 32%;
+  }
+  .grid-container .grid-item {
+    margin: 85px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 50px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .parrafos h1 {
+    margin-bottom: 50px;
+    color: #000000;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    align-items: center;
+  }
+  .new-cars-grid h3 {
+    color: #000000;
+    font-size: 30px;
+    padding: 0px;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+  footer .footer-container .footer-info {
+    margin: 0 20px;
+    margin-top: 90px;
+  }
+  footer .footer-container .logo-footer {
+    padding: 6px;
+    border-radius: 7px;
+    margin-top: 100px;
+  }
+  footer .footer-container .logo-footer img {
+    width: 190px;
+  }
+  footer .footer-container .footer-redes {
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  footer .footer-container .footer-redes .rrss-img {
+    width: 30px;
+    margin: 0 7px;
+    margin-top: 80px;
+    display: flex;
+  }
+  .grid-container .grid-item {
+    margin: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 50px;
+  }
 }
 
-.img-sizer {
-    width: 300px;
-}
-
-/* Responsive para big screen */
-
-@media only screen and (min-width: 2400px) {
-    .after-header h3 {
-        color: #000000;
-        font-family: "Montserrat", sans-serif;
-        font-weight: bolder;
-        font-size: 50px;
-        padding: 0px;
-        margin-left: 430px;
-        margin-top: 100px;
-    
-    
-    }
-    
-    .parrafos{
-        margin-top: 330px;
-        margin-bottom: 240px;
-    }
-
-    .parrafos h1{
-        margin-bottom: 125px;
-        font: 100px;
-    }
-
-    .parrafos p{
-        margin-left: 35%;
-        margin-right: 35%;
-        font-size: 19px;
-    }
-
-    .new-cars-grid h3{
-        font-size: 70px;
-        margin-bottom: 20px;
-    }
-    
-    .carousel-autos {
-        padding-left: 430px;
-        padding-right: 430px;
-    }
-
-    .grid-container{
-        margin-left: 30%;
-        margin-right: 30%;
-    }
-    
-    .grid-item {
-        margin: 85px;
-        margin-top: 60px;
-        margin-bottom: 60px;
-        padding: 50px;
-    }
-
-}
-
-/* Responsive para mobile */
-
-
-@media only screen and (max-width: 991px) {
-
-    header {
-        width: 100%;
-        background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 70%, rgba(240, 241, 250, 1) 100%), url(../img/porche_header_background_mvl.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 700px;
-    }
-
-    .button-navbar li a {
-        text-decoration: none;
-        color: #cfcfe4;
-        font-family: "Montserrat", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 700;
-        font-style: normal;
-        padding: 13px;
-        text-wrap: center;
-        margin-right: 30px;
-    }
-
-    .header-container {
-        margin-left: 20px;
-        margin-right: 20px;
-        margin-top: 15px;
-        min-height: 100px;
-        top: 0;
-        background-color: rgba(45, 74, 79, 0.881);
-    }
-
-    .button-navbar li a:hover {
-        border-radius: 3px;
-        transition-delay: 10ms;
-        transition-duration: 500ms;
-        background-color: rgba(39, 67, 72, 0.933);
-        color: #F0F1FA;
-    }
-
-
-    .highlight-page {
-        border-bottom: 4px solid #b9b9ec;
-        margin-right: 200px;
-    }
-
-    .after-header {
-        display: block;
-        margin-top: 100px;
-        height: 200px;
-        text-align: center;
-    }
-
-
-
-    .after-header h3 {
-        color: #000000;
-        font-weight: bolder;
-        font-size: 50px;
-        padding: 0px;
-        margin-left: 0px;
-        margin-top: 0px;
-        text-align: center;
-    }
-
-    .carousel-autos {
-        padding-left: 0px;
-        padding-right: 0px;
-        padding-top: 10px;
-    }
-
-    .carousel-inner {
-        border-radius: 5px;
-    }
-
-    .parrafos {
-        text-align: center;
-        margin-top: 150px;
-        margin-bottom: 10px;
-        margin-bottom: 200px;
-    }
-
-    .parrafos h1 {
-        margin-bottom: 50px;
-        color: #000000;
-        font-family: "Montserrat", sans-serif;
-        font-weight: bolder;
-        font-size: 60px;
-        align-items: center;
-    }
-
-    .parrafos p {
-        margin-top: 70px;
-        margin-left: 20px;
-        margin-right: 20px;
-        font-size: 16px;
-    }
-
-    .new-cars-grid h3 {
-        color: #000000;
-        font-family: "Montserrat", sans-serif;
-        font-weight: bolder;
-        font-size: 50px;
-        padding: 0px;
-        text-align: center;
-        margin-bottom: 100px;
-    }
-
-    .grid-container {
-        margin-left: 0px;
-        margin-right: 0px;
-    }
-
-    .grid-item {
-        margin: 40px;
-        margin-top: 40px;
-        margin-bottom: 40px;
-        padding: 50px;
-    }
-
-    footer {
-        background-image: linear-gradient(180deg, rgba(18, 20, 22, 1) 23%, rgba(255, 255, 255, 0) 65%), url(../img/footer-background-mobile.png);
-        height: 900px;
-        background-repeat: no-repeat;
-        background-size:auto;
-    }
-
-    .logo-footer {
-        padding: 15px;
-        border-radius: 10px;
-        margin-top: 100px;
-    }
-
-    .logo-footer img {
-        width: 250px;
-    }
-
-
-    .footer-redes {
-        margin-left: 100px;
-        margin-right: 100px;
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .rrss-img {
-        width: 45px;
-        margin: 0 7px;
-        margin-top: 80px;
-        display: flex;
-    }
-
-    .footer-info {
-        margin: 0 45px;
-        margin-top: 90px;
-    }
-
-    @media only screen and (max-width: 320px) {
-
-        .parrafos h1 {
-            margin-bottom: 50px;
-            color: #000000;
-            font-family: "Montserrat", sans-serif;
-            font-weight: bolder;
-            font-size: 40px;
-            align-items: center;
-        }
-
-        .new-cars-grid h3 {
-            color: #000000;
-            font-size: 30px;
-            padding: 0px;
-            text-align: center;
-            margin-bottom: 100px;
-        }
-
-        .footer-info {
-            margin: 0 25px;
-            margin-top: 90px;
-        }
-
-
-        .logo-footer {
-            padding: 6px;
-            border-radius: 7px;
-            margin-top: 100px;
-        }
-
-        .logo-footer img {
-            width: 190px;
-        }
-
-        .footer-redes {
-            margin-left: 5px;
-            margin-right: 5px;
-            display: flex;
-            flex-wrap: wrap;
-        }
-
-        .rrss-img {
-            width: 30px;
-            margin: 0 7px;
-            margin-top: 80px;
-            display: flex;
-        }
-
-    }
-}
-
+/*# sourceMappingURL=style.css.map */

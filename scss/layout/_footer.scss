@@ -1,0 +1,68 @@
+// footer
+
+footer {
+    background-color: #121416;
+    background-image: linear-gradient(180deg, rgba(18, 20, 22, 1) 23%, rgba(255, 255, 255, 0) 65%), url(../img/footer-background.jpg);
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+        .footer-border {
+            border: 2px solid #b9b9eca4;
+            margin: 0 50px;
+        }
+        .footer-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            .logo-footer {
+                background-color: rgba(45, 61, 79, 0.881);
+                padding: 30px;
+                text-align: center;
+                border-radius: 20px;
+                margin-top: 100px;
+                margin-left: 100%;
+                margin-right: 100%;
+                img {
+                    width: 300px;
+                }
+            }
+            .footer-redes {
+                margin-left: 100%;
+                margin-right: 100%;
+                    .rrss-img {
+                        width: 60px;
+                        filter: invert(88%) sepia(1%) saturate(2115%) hue-rotate(199deg) brightness(110%) contrast(96%);
+                        margin: 0 20px;
+                        margin-top: 80px;
+                        display: flex;
+                            &:hover {
+                                filter: invert(81%) sepia(64%) saturate(2965%) hue-rotate(193deg) brightness(91%) contrast(85%);
+                            }
+                    }
+                    ul {
+                        list-style-type: none;
+                        padding: 0;
+                        margin: 0;
+                        display: flex;
+                        justify-content: center;
+                    }
+            }
+            .footer-info {
+                margin: 0 300px;
+                margin-top: 90px;
+                color: #F0F1FA;
+                text-align: center;
+                padding: 15px;
+                border-radius: 20px;
+                background-color: rgba(45, 61, 79, 0.881);
+                box-shadow: 21px 20px 22px -5px rgba(0, 0, 0, 0.63);
+                -webkit-box-shadow: 21px 20px 22px -5px rgba(0, 0, 0, 0.63);
+                -moz-box-shadow: 21px 20px 22px -5px rgba(0, 0, 0, 0.63);
+                h4 {
+                    font-family: "Montserrat", sans-serif;
+                    font-weight: bolder;
+                    margin-bottom: 35px;
+                }
+            }            
+        }
+}

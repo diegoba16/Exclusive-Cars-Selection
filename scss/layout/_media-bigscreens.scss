@@ -1,0 +1,53 @@
+// Media query para dar responsive a monitores y televisores high-res
+
+@media only screen and (min-width: 2400px) {
+    .after-header h3 {
+        color: #000000;
+        font-family: "Montserrat", sans-serif;
+        font-weight: bolder;
+        font-size: 50px;
+        padding: 0px;
+        margin-left: 430px;
+        margin-top: 100px;
+
+
+    }
+
+    .parrafos {
+        margin-top: 330px;
+        margin-bottom: 240px;
+    }
+
+    .parrafos h1 {
+        margin-bottom: 125px;
+        font: 100px;
+    }
+
+    .parrafos p {
+        margin-left: 35%;
+        margin-right: 35%;
+        font-size: 19px;
+    }
+
+    .new-cars-grid h3 {
+        font-size: 70px;
+        margin-bottom: 20px;
+    }
+
+    .carousel-autos {
+        padding-left: 430px;
+        padding-right: 430px;
+    }
+
+    .grid-container {
+        margin-left: 32%;
+        margin-right: 32%;
+    }
+
+    .grid-container .grid-item {
+        margin: 85px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        padding: 50px;
+    }
+}

@@ -1,0 +1,58 @@
+// Media query para dar responsive a dispositivos moviles lowres
+
+@media only screen and (max-width: 320px) {
+
+    .parrafos h1 {
+        margin-bottom: 50px;
+        color: #000000;
+        font-family: "Montserrat", sans-serif;
+        font-weight: bolder;
+        font-size: 40px;
+        align-items: center;
+    }
+
+    .new-cars-grid h3 {
+        color: #000000;
+        font-size: 30px;
+        padding: 0px;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+
+    footer .footer-container .footer-info {
+        margin: 0 20px;
+        margin-top: 90px;
+    }
+
+
+    footer .footer-container .logo-footer {
+        padding: 6px;
+        border-radius: 7px;
+        margin-top: 100px;
+    }
+
+    footer .footer-container .logo-footer img {
+        width: 190px;
+    }
+
+    footer .footer-container .footer-redes {
+        margin-left: 5px;
+        margin-right: 5px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    footer .footer-container .footer-redes .rrss-img {
+        width: 30px;
+        margin: 0 7px;
+        margin-top: 80px;
+        display: flex;
+    }
+
+    .grid-container .grid-item {
+        margin: 5px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 50px;
+    }
+}

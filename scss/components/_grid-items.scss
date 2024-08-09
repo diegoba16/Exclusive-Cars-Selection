@@ -1,0 +1,92 @@
+// Componentes con logos de marcas de autos nuevos
+
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 19%;
+    margin-right: 19%;
+        .grid-item {
+            border: 2px solid rgba(160, 183, 218, 0.226);
+            background-color: rgba(62, 76, 95, 0.158);
+            padding: 50px;
+            margin: 50px;
+            width: 200px;
+            height: 200px;
+                .logo-img {
+                    width: 115px;
+                    position: absolute;
+                    margin-top: -9px;
+                    margin-left: -10px;
+                    z-index: 1;           
+                }
+                
+                .logo-nme {
+                    width: 180px;
+                    position: absolute;
+                    margin-top: 10px;
+                    margin-left: -40px;
+                    z-index: 1;
+                    opacity: 0;
+                }
+                .audi-img {
+                    width: 130px;
+                    margin-top: 25px;
+                    margin-left: -17px;
+                }
+                .porsche-img {
+                    width: 90px;
+                    margin-top: -10px;
+                    margin-left: 3px;
+                }
+                .ferrari-img {
+                    width: 130px;
+                    margin-top: -17px;
+                    margin-left: -17px;
+                }
+                .lamborghini_img {
+                    width: 110px;
+                    margin-top: -15px;
+                    margin-left: -7px;
+                }
+                .bmw-name {
+                    margin-top: 5px;
+                }
+                .merc-name {
+                    margin-top: 35px;
+                }
+                .audi-name {
+                    margin-top: 28px;
+                    margin-left: -42px;
+                }
+                .porsche-name {
+                    width: 180px;
+                    margin-top: 42px;
+                    margin-left: -42px;
+                }
+                .ferrari-name {
+                    margin-left: -42px;
+                    margin-top: 28px;
+                }
+                .lamborghini-name {
+                    width: 194px;
+                    position: absolute;
+                    margin-top: 21px;
+                    margin-left: -49px;
+                }
+                &:hover {
+                    border: 2px solid rgba(50, 49, 71, 0.904);
+                    background: #939ad8;
+                    background: linear-gradient(180deg, rgba(147, 154, 216, 0.756827731092437) 0%, rgba(164, 185, 217, 0.6111694677871149) 65%, rgba(179, 195, 212, 0.16859243697478987) 100%);
+                    transition: 300ms;
+                    .logo-img {
+                        opacity: 0;
+                        transition: 500ms;
+                    }
+                    .logo-nme {
+                        opacity: 1;
+                        transition: 1.5s;
+                    }
+                }
+        }  
+}

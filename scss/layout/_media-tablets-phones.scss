@@ -1,0 +1,156 @@
+// Media query para dar responsive a dispositivos tablets y smartphones
+
+@media only screen and (max-width: 991px) {
+
+    header {
+        width: 100%;
+        background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 70%, rgba(240, 241, 250, 1) 100%), url(../img/porche_header_background_mvl.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 700px;
+    }
+
+    .button-navbar li a {
+        text-decoration: none;
+        color: #cfcfe4;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        padding: 13px;
+        text-wrap: center;
+        margin-right: 30px;
+    }
+
+    .header-container {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 15px;
+        min-height: 100px;
+        top: 0;
+        background-color: rgba(45, 74, 79, 0.881);
+    }
+
+    .button-navbar li a:hover {
+        border-radius: 3px;
+        transition-delay: 10ms;
+        transition-duration: 500ms;
+        background-color: rgba(39, 67, 72, 0.933);
+        color: #F0F1FA;
+    }
+
+
+    .highlight-page {
+        border-bottom: 4px solid #b9b9ec;
+        margin-right: 200px;
+    }
+
+    .after-header {
+        display: block;
+        margin-top: 100px;
+        height: 200px;
+        text-align: center;
+    }
+
+    .after-header h3 {
+        color: #000000;
+        font-weight: bolder;
+        font-size: 50px;
+        padding: 0px;
+        margin-left: 0px;
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    .carousel-autos {
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 10px;
+    }
+
+    .carousel-inner {
+        border-radius: 5px;
+    }
+
+    .parrafos {
+        text-align: center;
+        margin-top: 150px;
+        margin-bottom: 10px;
+        margin-bottom: 200px;
+    }
+
+    .parrafos h1 {
+        margin-bottom: 50px;
+        color: #000000;
+        font-family: "Montserrat", sans-serif;
+        font-weight: bolder;
+        font-size: 60px;
+        align-items: center;
+    }
+
+    .parrafos p {
+        margin-top: 70px;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 16px;
+    }
+
+    .new-cars-grid h3 {
+        color: #000000;
+        font-family: "Montserrat", sans-serif;
+        font-weight: bolder;
+        font-size: 50px;
+        padding: 0px;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+
+    .grid-container {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .grid-container .grid-item {
+        margin: 40px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        padding: 50px;
+    }
+
+    footer {
+        background-image: linear-gradient(180deg, rgba(18, 20, 22, 1) 23%, rgba(255, 255, 255, 0) 65%), url(../img/footer-background-mobile.png);
+        height: 900px;
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+
+    footer .footer-container .logo-footer {
+        padding: 15px;
+        border-radius: 10px;
+        margin-top: 100px;
+    }
+
+    footer .footer-container .logo-footer img {
+        width: 250px;
+    }
+
+
+    footer .footer-container .footer-redes {
+        margin-left: 100px;
+        margin-right: 100px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    footer .footer-container .footer-redes .rrss-img {
+        width: 45px;
+        margin: 0 7px;
+        margin-top: 80px;
+        display: flex;
+    }
+
+    footer .footer-container .footer-info {
+        margin: 0 45px;
+        margin-top: 90px;
+    }
+}

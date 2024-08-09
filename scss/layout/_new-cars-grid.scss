@@ -1,0 +1,16 @@
+// Grilla con marca de autos nuevos
+
+.new-cars-grid {
+    background: rgb(240, 241, 250);
+    background: linear-gradient(180deg, rgba(240, 241, 250, 0.8688725490196079) 0%, rgba(130, 135, 145, 1) 37%, rgba(18, 20, 22, 1) 67%);
+    padding-bottom: 60px;
+        h3{
+            color: #000000;
+            font-family: "Montserrat", sans-serif;
+            font-weight: bolder;
+            font-size: 50px;
+            padding: 0px;
+            text-align: center;
+        }
+}
+
