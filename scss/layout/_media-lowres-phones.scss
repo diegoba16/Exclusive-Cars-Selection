@@ -1,6 +1,14 @@
 // Media query para dar responsive a dispositivos moviles lowres
 
 @media only screen and (max-width: 320px) {
+    .header-container {
+        min-height: 70px;
+        .navbar-brand{
+            img{
+                width: 100px;
+            }
+        }
+    }
 
     .parrafos h1 {
         margin-bottom: 50px;
@@ -17,6 +25,53 @@
         padding: 0px;
         text-align: center;
         margin-bottom: 100px;
+    }
+
+    .exlusive-selection-sale {
+        .contenedor-sales {
+            padding: 10px 5px;
+            .car-upper {
+
+    
+                .car-img {
+    
+                    img {
+                        margin-bottom: 5px;
+                        border-radius: 10px;
+                        max-width: 98%;
+                    }
+                }
+    
+                .car-info {
+                    h4{
+                        text-align: center;
+                        font-size: 29px;
+                        font-weight: 600;
+                    }
+                    ul{
+                        font-size: 13px;
+                        font-weight: 300;
+                        padding: 20px;
+                    }
+                }
+    
+                .car-price {
+                    margin-top: auto;
+                    margin-bottom: 25px;
+                    color: rgb(227, 227, 240);
+                    h5{
+                        font-size: 25px;
+                        font-weight: 700;
+                    }
+                }
+            }
+    
+            .car-bottom {
+                .carousel-fade {
+                    max-width: 96%;
+                }
+            }
+        }
     }
 
     footer .footer-container .footer-info {
