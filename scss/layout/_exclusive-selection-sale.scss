@@ -1,0 +1,80 @@
+// Panel de selection.html con componentes de autos usuados
+
+.exlusive-selection-sale {
+    background: rgb(240, 241, 250);
+    background: linear-gradient(180deg, rgba(240, 241, 250, 0.8688725490196079) 0%, rgba(130, 135, 145, 1) 37%, rgba(18, 20, 22, 1) 67%);
+    padding-bottom: 250px;
+    .contenedor-sales {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 960px;
+        padding: 35px;
+        border-radius: 10px;
+        margin-top: 200px;
+        background: rgb(45,61,79);
+        background: radial-gradient(circle, rgba(45,61,79,0.7596288515406162) 0%, rgba(38,75,116,0.5215336134453781) 100%);
+        box-shadow: 10px 17px 37px -5px rgba(0,0,0,0.55);
+        -webkit-box-shadow: 10px 17px 37px -5px rgba(0,0,0,0.55);
+        -moz-box-shadow: 10px 17px 37px -5px rgba(0,0,0,0.55);
+
+        .car-upper {
+            display: flex;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+
+            .car-img {
+                margin-right: 30px;
+
+                img {
+                    width: 380px;
+                    margin-bottom: 15px;
+                    border-radius: 10px;
+                }
+            }
+
+            .car-info {
+                margin-top: auto;
+                margin-bottom: auto;
+                padding: 10px;
+                color: rgb(227, 227, 240);
+                h4{
+                    text-align: center;
+                    font-size: 40px;
+                    font-weight: 750;
+                }
+                ul{
+                    font-size: 18px;
+                    font-weight: 400;
+                }
+            }
+
+            .car-price {
+                margin-top: auto;
+                margin-bottom: 25px;
+                color: rgb(227, 227, 240);
+                h5{
+                    font-size: 25px;
+                    font-weight: 700;
+                }
+            }
+        }
+
+        .car-bottom {
+            .car-photos {
+                display: flex;
+                justify-content: flex-start;
+                flex-wrap: wrap;
+
+                img {
+                    width: 210px;
+                    margin-right: 10px;
+                    border-radius: 8px;
+                }
+            }
+
+            .carousel-fade {
+                display: none;
+            }
+        }
+    }
+}

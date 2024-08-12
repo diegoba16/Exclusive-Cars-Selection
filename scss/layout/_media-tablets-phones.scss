@@ -153,4 +153,43 @@
         margin: 0 45px;
         margin-top: 90px;
     }
+
+    // Responsive para Exclusive Selection (selection.html)
+
+    .exlusive-selection-sale{
+        .contenedor-sales{
+            margin-left: 30px;
+            margin-right: 30px;
+            .car-upper{
+                justify-content: center;
+                .car-img{
+                    margin: auto;
+                    text-align: center;
+                    img{
+                        width: auto;
+                        max-width: 90%;
+                        height: auto;
+                        border-radius: 0;
+                    }
+                }
+                .car-price{
+                    margin: 0px;
+                    padding: 25px;
+                    margin-top: auto;
+                    margin-bottom: auto;
+                    
+                }
+            }
+            .car-bottom{
+                .car-photos{
+                    display: none;
+                }
+                .carousel-fade{
+                    display: block;
+                    margin: auto;
+                    max-width: 87%;
+                }
+            }
+        }
+    }
 }
