@@ -8,3 +8,8 @@ body {
     background-color: #F0F1FA;
 }
 
+.gradient-bottom{
+    background: rgb(240, 241, 250);
+    background: linear-gradient(180deg, rgba(240, 241, 250, 0.8688725490196079) 0%, rgba(130, 135, 145, 1) 37%, rgba(18, 20, 22, 1) 67%);
+    padding-bottom: 60px;
+}

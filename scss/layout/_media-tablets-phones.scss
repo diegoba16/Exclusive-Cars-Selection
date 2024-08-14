@@ -161,7 +161,7 @@
 
     // Responsive para Exclusive Selection (selection.html)
 
-    .exlusive-selection-sale{
+    .exclusive-selection-sale{
         .contenedor-sales{
             margin-left: 15px;
             margin-right: 15px;
@@ -202,4 +202,53 @@
             }
         }
     }
+
+
+    //Responsive para "Sobre Nosotros" (about.html)
+    .about-photos-container{
+            .text{
+                h2{
+                    font-family: "Montserrat", sans-serif;
+                    font-weight: bolder;
+                    font-size: 60px;
+                    margin-bottom: 80px;
+                }
+                p{
+                    font-family: 'Trebuchet MS', sans-serif;
+                    &:nth-child(2){
+                        font-size: 350px;
+                        position: relative;
+                        bottom: 220px;
+                    }
+                    &:nth-child(3){
+                        font-size: 210px;
+                        position: relative;
+                        bottom: 250px;
+                        right: 3px;
+                    }
+                    &:nth-child(4){
+                        font-size: 125px;
+                        position: relative;
+                        bottom: 230px;
+                        right: 3px;
+                    }
+                }
+            }
+            .about-photos{
+                display: flex;
+                justify-content: center;
+                padding-top: 0px;
+                margin: 0px;
+                flex-wrap: wrap;
+                img{
+                    max-width: 80%;
+                    height: auto;
+                    margin-top: 250px;
+                    &:nth-child(1){
+                        position: static;
+                    }
+                }
+            }
+    }
+
 }
