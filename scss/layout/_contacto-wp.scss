@@ -1,0 +1,24 @@
+.contacto-wp{
+    display: flex;
+    background-color: rgba(18, 20, 22, 1);
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+    a{
+        text-decoration: none;
+        margin-inline: 10px;
+        h5{
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 23px;
+        }
+        .rrss-img{
+            filter: invert(88%) sepia(1%) saturate(2115%) hue-rotate(199deg) brightness(110%) contrast(96%);
+            width: 50px;
+                &:hover{
+                    filter: brightness(0) saturate(100%) invert(57%) sepia(92%) saturate(417%) hue-rotate(101deg) brightness(90%) contrast(99%);
+                }
+        }
+    }
+}

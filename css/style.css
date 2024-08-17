@@ -138,11 +138,10 @@ footer .footer-border {
 }
 footer .footer-container {
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
 }
 footer .footer-container .logo-footer {
-  background-color: rgba(45, 61, 79, 0.881);
   padding: 30px;
   text-align: center;
   border-radius: 20px;
@@ -151,14 +150,15 @@ footer .footer-container .logo-footer {
   margin-right: 100%;
 }
 footer .footer-container .logo-footer img {
-  width: 300px;
+  width: 230px;
+  filter: invert(88%) sepia(1%) saturate(2115%) hue-rotate(199deg) brightness(110%) contrast(96%);
 }
 footer .footer-container .footer-redes {
   margin-left: 100%;
   margin-right: 100%;
 }
 footer .footer-container .footer-redes .rrss-img {
-  width: 60px;
+  width: 45px;
   filter: invert(88%) sepia(1%) saturate(2115%) hue-rotate(199deg) brightness(110%) contrast(96%);
   margin: 0 20px;
   margin-top: 80px;
@@ -181,7 +181,7 @@ footer .footer-container .footer-info {
   text-align: center;
   padding: 15px;
   border-radius: 20px;
-  background-color: rgba(45, 61, 79, 0.881);
+  background-color: rgba(33, 37, 41, 0.721);
   box-shadow: 21px 20px 22px -5px rgba(0, 0, 0, 0.63);
   -webkit-box-shadow: 21px 20px 22px -5px rgba(0, 0, 0, 0.63);
   -moz-box-shadow: 21px 20px 22px -5px rgba(0, 0, 0, 0.63);
@@ -189,7 +189,11 @@ footer .footer-container .footer-info {
 footer .footer-container .footer-info h4 {
   font-family: "Montserrat", sans-serif;
   font-weight: bolder;
-  margin-bottom: 35px;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+footer .footer-container .footer-info p {
+  font-size: 15px;
 }
 
 .exclusive-selection-sale {
@@ -305,7 +309,7 @@ footer .footer-container .footer-info h4 {
   margin: 0 50px;
 }
 .about-photos-container .about-photos img {
-  max-width: 45%;
+  max-width: 35%;
   height: auto;
   margin-left: 60px;
   margin-right: 60px;
@@ -314,6 +318,87 @@ footer .footer-container .footer-info h4 {
 .about-photos-container .about-photos img:nth-child(1) {
   position: relative;
   bottom: 300px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-form form {
+  max-width: 900px;
+  margin-inline: 30px;
+}
+
+.address-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.address-container .address {
+  margin-inline: 17px;
+  margin-bottom: 20px;
+  width: 400px;
+  background-color: rgba(40, 46, 51, 0.644);
+  color: white;
+  padding-bottom: 15px;
+}
+.address-container .address h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 10px 15px;
+  margin-bottom: 20px;
+}
+.address-container .address p {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 2px 15px;
+}
+.address-container .map {
+  margin-inline: 17px;
+  margin-bottom: 20px;
+  width: 400px;
+  background-color: rgba(33, 37, 41, 0.721);
+  color: white;
+}
+.address-container .map h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 10px 15px;
+}
+.address-container .map div {
+  padding-inline: 15px;
+}
+.address-container .map div iframe {
+  height: 300px;
+  max-width: 370px;
+}
+
+.contacto-wp {
+  display: flex;
+  background-color: rgb(18, 20, 22);
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+.contacto-wp a {
+  text-decoration: none;
+  margin-inline: 10px;
+}
+.contacto-wp a h5 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 23px;
+}
+.contacto-wp a .rrss-img {
+  filter: invert(88%) sepia(1%) saturate(2115%) hue-rotate(199deg) brightness(110%) contrast(96%);
+  width: 50px;
+}
+.contacto-wp a .rrss-img:hover {
+  filter: brightness(0) saturate(100%) invert(57%) sepia(92%) saturate(417%) hue-rotate(101deg) brightness(90%) contrast(99%);
 }
 
 .grid-container {
@@ -404,6 +489,18 @@ footer .footer-container .footer-info h4 {
 .grid-container .grid-item:hover .logo-nme {
   opacity: 1;
   transition: 1.5s;
+}
+
+.title {
+  margin-bottom: 75px;
+  color: #000000;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  font-size: 75px;
+  align-items: center;
+  text-align: center;
+  margin-top: 160px;
+  margin-bottom: 80px;
 }
 
 @media only screen and (max-width: 991px) {
@@ -511,38 +608,44 @@ footer .footer-container .footer-info h4 {
   }
   footer {
     background-image: linear-gradient(180deg, rgb(18, 20, 22) 23%, rgba(255, 255, 255, 0) 65%), url(../img/footer-background-mobile.png);
-    height: 900px;
+    height: 700px;
     background-repeat: no-repeat;
     background-size: auto;
   }
-  footer .footer-container .logo-footer {
-    padding: 15px;
-    border-radius: 10px;
-    margin-top: 100px;
+  footer .footer-border {
+    border: 1px solid rgba(185, 185, 236, 0.6431372549);
   }
   footer .footer-container .logo-footer img {
-    width: 250px;
-  }
-  footer .footer-container .footer-redes {
-    margin-left: 100px;
-    margin-right: 100px;
-    display: flex;
-    flex-wrap: wrap;
+    width: 200px;
   }
   footer .footer-container .footer-redes .rrss-img {
-    width: 45px;
-    margin: 0 7px;
-    margin-top: 80px;
-    display: flex;
+    width: 37px;
+    margin: 0 12px;
+    margin-top: 50px;
   }
   footer .footer-container .footer-info {
-    margin: 0 45px;
+    margin: 0 40px;
     margin-top: 90px;
+    padding: 15px;
+  }
+  footer .footer-container .footer-info h4 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  footer .footer-container .footer-info p {
+    font-size: 13px;
+  }
+  .exclusive-selection-sale {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .exclusive-selection-sale .contenedor-sales {
-    margin-left: 15px;
-    margin-right: 15px;
-    padding: 30px 5px;
+    padding: 14px 0px;
+    max-width: 550px;
+    margin-inline: 15px;
   }
   .exclusive-selection-sale .contenedor-sales .car-upper {
     justify-content: center;
@@ -553,7 +656,7 @@ footer .footer-container .footer-info h4 {
   }
   .exclusive-selection-sale .contenedor-sales .car-upper .car-img img {
     width: auto;
-    max-width: 90%;
+    max-width: 94%;
     height: auto;
   }
   .exclusive-selection-sale .contenedor-sales .car-upper .car-info h4 {
@@ -571,7 +674,7 @@ footer .footer-container .footer-info h4 {
   .exclusive-selection-sale .contenedor-sales .car-bottom .carousel-fade {
     display: block;
     margin: auto;
-    max-width: 87%;
+    max-width: 93%;
   }
   .about-photos-container .text h2 {
     font-family: "Montserrat", sans-serif;
@@ -607,14 +710,65 @@ footer .footer-container .footer-info h4 {
     flex-wrap: wrap;
   }
   .about-photos-container .about-photos img {
-    max-width: 80%;
+    max-width: 74%;
     height: auto;
-    margin-top: 250px;
+    margin-top: 130px;
   }
   .about-photos-container .about-photos img:nth-child(1) {
     position: static;
   }
+  .title {
+    font-size: 45px;
+    margin-top: 40px;
+  }
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-form form {
+    max-width: 900px;
+    margin-inline: 15px;
+  }
+  .address-container .address {
+    margin-inline: 5px;
+    margin-bottom: 10px;
+  }
+  .address-container .address h4 {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+  .address-container .address p {
+    font-size: 15px;
+  }
+  .address-container .map {
+    margin-inline: 5px;
+    margin-bottom: 10px;
+  }
+  .address-container .map h4 {
+    font-size: 26px;
+  }
 }
+.contacto-wp {
+  flex-direction: column;
+}
+.contacto-wp a {
+  text-decoration: none;
+  margin-inline: 10px;
+  margin-bottom: 10px;
+}
+.contacto-wp a h5 {
+  font-size: 19px;
+  text-align: center;
+}
+.contacto-wp a .rrss-img {
+  filter: invert(88%) sepia(1%) saturate(2115%) hue-rotate(199deg) brightness(110%) contrast(96%);
+  width: 41px;
+}
+.contacto-wp a .rrss-img:hover {
+  filter: brightness(0) saturate(100%) invert(57%) sepia(92%) saturate(417%) hue-rotate(101deg) brightness(90%) contrast(99%);
+}
+
 @media only screen and (min-width: 2400px) {
   .after-header h3 {
     color: #000000;
@@ -738,6 +892,27 @@ footer .footer-container .footer-info h4 {
     margin-top: 30px;
     margin-bottom: 30px;
     padding: 50px;
+  }
+  .title {
+    font-size: 30px;
+  }
+  .address-container .address {
+    margin-inline: 5px;
+    margin-bottom: 10px;
+  }
+  .address-container .address h4 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  .address-container .address p {
+    font-size: 14px;
+  }
+  .address-container .map {
+    margin-inline: 5px;
+    margin-bottom: 10px;
+  }
+  .address-container .map h4 {
+    font-size: 25px;
   }
 }
 

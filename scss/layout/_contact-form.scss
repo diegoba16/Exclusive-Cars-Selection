@@ -1,0 +1,9 @@
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    form{
+        max-width: 900px;
+        margin-inline: 30px;
+    }
+}

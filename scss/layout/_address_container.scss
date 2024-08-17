@@ -1,0 +1,45 @@
+.address-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    .address{
+        margin-inline: 17px;
+        margin-bottom: 20px;
+        width: 400px;
+        background-color: rgba(40, 46, 51, 0.644);
+        color: white;
+        padding-bottom: 15px;
+        h4{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 30px;
+            margin: 10px 15px;
+            margin-bottom: 20px;
+        }
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 2px 15px;
+        }
+    }
+    .map{
+        margin-inline: 17px;
+        margin-bottom: 20px;
+        width: 400px;
+        background-color: rgba(33, 37, 41, 0.721);
+        color: white;
+        h4{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 30px;
+            margin: 10px 15px;
+        }
+        div{
+            padding-inline: 15px;
+            iframe{
+                height: 300px;
+                max-width: 370px;
+            }
+        }
+    }
+}

@@ -110,4 +110,30 @@
         margin-bottom: 30px;
         padding: 50px;
     }
+
+    //Responsive para Contacto (contact.html)
+    .title{
+        font-size: 30px;
+    }
+
+    .address-container{
+        .address{
+            margin-inline: 5px;
+            margin-bottom: 10px;
+            h4{
+                font-size: 25px;
+                margin-bottom: 10px;
+            }
+            p{
+                font-size: 14px;
+            }
+        }
+        .map{
+            margin-inline: 5px;
+            margin-bottom: 10px;
+            h4{
+                font-size: 25px;
+            }
+        }
+    }
 }
