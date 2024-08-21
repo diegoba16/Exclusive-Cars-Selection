@@ -4,22 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Automotra | Vehiculos nuevos</title>
+    <title>Exclusive Cars Selection | Vehículos Nuevos</title>
     <!--  Linkeo Fuente de Header -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <!-- Linkeo favicons-->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+    <link rel="manifest" href="../site.webmanifest">
     <!-- Linkeo bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Linkeo animate.style-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- Linkeo AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Linkeo Splide-->
+    <link href="
+    https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+    " rel="stylesheet">
+
     <!-- Linkeo CSS-->
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style.css?v=2">
 </head>
 
 <body>
@@ -58,8 +67,253 @@
         </nav>
     </header>
 
-    <h1>Vehiculos Nuevos</h1>
-    <a href="../index.html">Inicio</a>
+    <main>
+        <section class="parrafos" data-aos="fade-up" data-aos-duration="1500">
+            <h1>Exclusive Nuevos</h1>
+            <p data-aos="fade-up" data-aos-duration="1500">
+                Nuestros "Exclusive Nuevos" incluyen vehículos deportivos y de alta gama 0 km, ofreciendo lo último en
+                innovación y lujo.<br><br>
+                Cada automóvil nuevo en esta colección está disponible a un precio competitivo y
+                brinda a los clientes la oportunidad de seleccionar una gran variedad de opcionales para ajustarse
+                perfectamente a sus necesidades y preferencias.<br><br>
+                Con "Exclusive Nuevos", proporcionamos autos de alto
+                desempeño y máxima exclusividad, asegurando una experiencia de conducción inigualable desde el primer
+                kilómetro.
+            </p>
+        </section>
+        <section class="new-cars-grid">
+            <h3 data-aos="fade-up" data-aos-duration="1500">Marcas</h3>
+            <nav class="grid-container">
+                <div class="grid-item" data-aos="zoom-in-up" data-aos-duration="1500">
+                    <img class="logo-nme bmw-name" src="../img/bmw_name.png" alt="bmw-name"><img
+                        class="logo-img bmw_img" src="../img/bmw_logo.svg" alt="bmw_logo">
+                </div>
+                <div class="grid-item" data-aos="zoom-in-up" data-aos-duration="1500">
+                    <img class="logo-nme merc-name" src="../img/mercedes_name.png" alt="mercedes-name"><img
+                        class="logo-img merc-img" src="../img/mercedes-logo.svg" alt="mercedes_logo">
+                </div>
+                <div class="grid-item" data-aos="zoom-in-up" data-aos-duration="1500">
+                    <img class="logo-nme audi-name" src="../img/audi_name.png" alt="audi-name"><img
+                        class="logo-img audi-img" src="../img/audi_logo.svg" alt="audi_logo">
+                </div>
+                <div class="grid-item" data-aos="zoom-in-up" data-aos-duration="1500">
+                    <img class="logo-nme porsche-name" src="../img/porsche-name.png" alt="porsche-name"><img
+                        class="logo-img porsche-img" src="../img/porsche_logo.svg" alt="porsche_logo">
+                </div>
+                <div class="grid-item" data-aos="zoom-in-up" data-aos-duration="1500">
+                    <img class="logo-nme ferrari-name" src="../img/ferrari_name.png" alt="ferrari-name"><img
+                        class="logo-img ferrari-img" src="../img/ferrari-logo.png" alt="ferrari_logo">
+                </div>
+                <div class="grid-item" data-aos="zoom-in-up" data-aos-duration="1500">
+                    <img class="logo-nme lamborghini-name" src="../img/lamborghini_name.png" alt="lamborghini-name"><img
+                        class="logo-img lamborghini_img" src="../img/lamborghini-logo.svg" alt="lamborghini_logo">
+                </div>
+            </nav>
+        </section>
+        <section>
+            <div class="new-cars-brands">
+                <div class="nc-brands-models">
+                    <div class="nc-brand">
+                        <img class="brand-lgo" src="../img/bmw_logo.svg" alt="bmw_logo">
+                        <img class="brand-nme" src="../img/bmw_name.png" alt="bmw-name">
+                    </div>
+                    <div id="carouselBMW" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div>
+                                    <img src="../img/new_cars_img/BMW_Serie_1.webp" alt="BMW_Serie_1">
+                                    <div class="nc-model-info">
+                                        <div class="nc-info">
+                                            <h4>Serie 1</h4>
+                                            <p><strong>BMW 118i:</strong> Compacto y eficiente con 140 CV, ideal para la
+                                                ciudad.<br>
+                                                <strong>BMW 120i:</strong> Potencia equilibrada con 178 CV y lujo
+                                                accesible.<br>
+                                                <strong>BMW M135i xDrive:</strong> Deportividad total con 306 CV y
+                                                tracción total.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="nc-price">
+                                        <h4>Desde<br> U$S 59.990</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div>
+                                    <img src="../img/new_cars_img/BMW_Serie_2.webp" alt="BMW_Serie_2">
+                                    <div class="nc-model-info">
+                                        <div class="nc-info">
+                                            <h4>Serie 2</h4>
+                                            <p><strong>BMW 218i:</strong> Elegancia compacta con 156 CV, perfecto para
+                                                el día a día.<br>
+                                                <strong>BMW 220i:</strong> Potencia refinada con 184 CV, combina estilo
+                                                y rendimiento.<br>
+                                                <strong>BMW M240i xDrive:</strong> Máxima deportividad con 374 CV y
+                                                tracción total.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="nc-price">
+                                        <h4>Desde<br> U$S 72.990</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div>
+                                    <img src="../img/new_cars_img/BMW_Serie_3.webp" alt="BMW_Serie_3">
+                                    <div class="nc-model-info">
+                                        <div class="nc-info">
+                                            <h4>Serie 3</h4>
+                                            <p><strong>BMW 318i:</strong> Elegancia y eficiencia con 156 CV, ideal para
+                                                la vida urbana.<br>
+                                                <strong>BMW 320i:</strong> Rendimiento equilibrado con 184 CV, combina
+                                                lujo y potencia.<br>
+                                                <strong>BMW M340i xDrive:</strong> Rendimiento equilibrado con 184 CV,
+                                                combina lujo y potencia.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="nc-price">
+                                        <h4>Desde<br> U$S 79.990</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div>
+                                    <img src="../img/new_cars_img/BMW_Serie_i7.webp" alt="BMW_Serie_i7">
+                                    <div class="nc-model-info">
+                                        <div class="nc-info">
+                                            <h4>Serie i7</h4>
+                                            <p><strong>BMW i7 xDrive50:</strong> Lujo eléctrico con 544 CV y una
+                                                autonomía excepcional, redefine la movilidad sostenible.<br>
+                                                <strong>BMW i7 M70 xDrive:</strong> Máxima potencia eléctrica con 660 CV
+                                                y rendimiento deportivo, el pináculo del lujo y la tecnología.<br>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="nc-price">
+                                        <h4>Desde<br> U$S 159.990</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselBMW"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselBMW"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="nc-brands-models">
+                    <div class="nc-brand">
+                        <img class="brand-lgo" src="../img/mercedes-logo.svg" alt="mercedes-logo">
+                        <img class="brand-nme mercedes-nme" src="../img/mercedes_name.png" alt="mercedes-name">
+                    </div>
+                    <div id="carouselMercedes" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div>
+                                    <img src="../img/new_cars_img/Mercedes_Clase_A.webp" alt="Mercedes_Clase_A">
+                                    <div class="nc-model-info">
+                                        <div class="nc-info">
+                                            <h4>Clase A</h4>
+                                            <p><strong>A 180:</strong> Compacto y elegante con 136 CV, perfecto para el
+                                                uso diario con estilo.<br>
+                                                <strong>A 200:</strong> Rendimiento equilibrado con 163 CV, combina lujo
+                                                y agilidad.<br>
+                                                <strong>AMG A 45 S 4MATIC+</strong> Deportividad extrema con 421 CV y
+                                                tracción total, la cúspide del rendimiento compacto.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="nc-price">
+                                        <h4>Desde<br> U$S 58.990</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div>
+                                    <img src="../img/new_cars_img/Mercedes_Clase_C.webp" alt="Mercedes_Clase_C">
+                                    <div class="nc-model-info">
+                                        <div class="nc-info">
+                                            <h4>Clase C</h4>
+                                            <p><strong>C 200:</strong> Elegancia y eficiencia con 204 CV, ideal para
+                                                quienes buscan lujo en cada trayecto.<br>
+                                                <strong>C 300:</strong> Potencia refinada con 258 CV, combina
+                                                rendimiento y sofisticación.<br>
+                                                <strong>AMG C 63 S E Performance:</strong> Desempeño máximo con 680 CV
+                                                híbridos y tecnología avanzada, la cima del lujo deportivo.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="nc-price">
+                                        <h4>Desde<br> U$S 69.990</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div>
+                                    <img src="../img/new_cars_img/Mercedes_Clase_E.webp" alt="Mercedes_Clase_E">
+                                    <div class="nc-model-info">
+                                        <div class="nc-info">
+                                            <h4>Clase E</h4>
+                                            <p><strong>E 200:</strong> Sofisticación y eficiencia con 204 CV, perfecto
+                                                para un lujo diario.<br>
+                                                <strong>E 300:</strong> Potencia elegante con 258 CV, equilibrio entre
+                                                rendimiento y confort.<br>
+                                                <strong>AMG E 53 4MATIC+:</strong> Desempeño dinámico con 435 CV y
+                                                tracción total, donde el lujo se encuentra con la deportividad.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="nc-price">
+                                        <h4>Desde<br> U$S 85.990</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div>
+                                    <img src="../img/new_cars_img/Mercedes_Clase_S.webp" alt="Mercedes_Clase_S">
+                                    <div class="nc-model-info">
+                                        <div class="nc-info">
+                                            <h4>Clase S</h4>
+                                            <p><strong>S 500 4MATIC</strong> Potencia refinada con 435 CV y tracción
+                                                total, donde el lujo se fusiona con la innovación.<br>
+                                                <strong>AMG S 63 E Performance:</strong> La cúspide del lujo deportivo
+                                                con 802 CV híbridos, redefiniendo la excelencia en cada detalle.<br>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="nc-price">
+                                        <h4>Desde<br> U$S 151.990</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselMercedes"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselMercedes"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
 
     <footer>
         <div class="footer-border"></div>
@@ -103,6 +357,9 @@
     <script>
         AOS.init();
     </script>
+
+    <!--Script Splide carrusel-->
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
 
 </body>
 

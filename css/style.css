@@ -401,6 +401,90 @@ footer .footer-container .footer-info p {
   filter: brightness(0) saturate(100%) invert(57%) sepia(92%) saturate(417%) hue-rotate(101deg) brightness(90%) contrast(99%);
 }
 
+.new-cars-brands {
+  background-color: rgb(18, 20, 22);
+  padding-top: 100px;
+}
+.new-cars-brands .nc-brands-models {
+  margin-inline: 10%;
+  padding-bottom: 160px;
+  background-color: rgb(18, 20, 22);
+}
+.new-cars-brands .nc-brands-models .nc-brand {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.new-cars-brands .nc-brands-models .nc-brand img {
+  width: 78px;
+  margin-right: 20px;
+}
+.new-cars-brands .nc-brands-models .nc-brand .brand-nme {
+  filter: invert(1);
+}
+.new-cars-brands .nc-brands-models .nc-brand .mercedes-nme {
+  width: 130px;
+}
+.new-cars-brands .nc-brands-models .carousel {
+  margin-inline: 30px;
+}
+.new-cars-brands .nc-brands-models .carousel .carousel-inner {
+  border-radius: 0;
+}
+.new-cars-brands .nc-brands-models .carousel .carousel-inner .carousel-item div {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+.new-cars-brands .nc-brands-models .carousel .carousel-inner .carousel-item div img {
+  max-width: 52%;
+  min-width: 600px;
+  border-radius: 5px;
+}
+.new-cars-brands .nc-brands-models .carousel .carousel-inner .carousel-item div .nc-model-info {
+  display: block;
+  margin-left: 30px;
+  max-width: 30%;
+  display: flex;
+  align-items: center;
+}
+.new-cars-brands .nc-brands-models .carousel .carousel-inner .carousel-item div .nc-model-info .nc-info {
+  color: rgb(231, 235, 253);
+  margin-right: 15px;
+  flex-direction: column;
+  margin-bottom: 8px;
+}
+.new-cars-brands .nc-brands-models .carousel .carousel-inner .carousel-item div .nc-model-info .nc-info h4 {
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.new-cars-brands .nc-brands-models .carousel .carousel-inner .carousel-item div .nc-model-info .nc-info p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+.new-cars-brands .nc-brands-models .carousel .carousel-inner .carousel-item div .nc-model-info .nc-info p br {
+  display: block;
+  content: "";
+  margin-top: 10px;
+}
+.new-cars-brands .nc-brands-models .carousel .carousel-inner .carousel-item div .nc-model-info .nc-info p strong {
+  font-weight: 750;
+  color: rgb(235, 240, 255);
+}
+.new-cars-brands .nc-brands-models .carousel .carousel-inner .carousel-item div .nc-price {
+  text-align: center;
+  padding-inline: 10px;
+  align-items: center;
+  color: rgb(231, 235, 253);
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  margin-inline: -120px;
+}
+
 .grid-container {
   display: flex;
   flex-wrap: wrap;
