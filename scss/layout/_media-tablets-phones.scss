@@ -283,54 +283,142 @@
         margin-top: 40px;
     }
 
-    .contact-form{
+    .contact-form {
         display: flex;
         flex-direction: column;
         align-items: center;
-        form{
+
+        form {
             max-width: 900px;
             margin-inline: 15px;
         }
     }
 
-    .address-container{
-        .address{
+    .address-container {
+        .address {
             margin-inline: 5px;
             margin-bottom: 10px;
-            h4{
+
+            h4 {
                 font-size: 26px;
                 margin-bottom: 10px;
             }
-            p{
+
+            p {
                 font-size: 15px;
             }
         }
-        .map{
+
+        .map {
             margin-inline: 5px;
             margin-bottom: 10px;
-            h4{
+
+            h4 {
                 font-size: 26px;
             }
         }
     }
-}
 
-.contacto-wp{
-    flex-direction: column;
-    a{
-        text-decoration: none;
-        margin-inline: 10px;
-        margin-bottom: 10px;
-        h5{
-            font-size: 19px;
-            text-align: center;
-        }
-        .rrss-img{
-            filter: invert(88%) sepia(1%) saturate(2115%) hue-rotate(199deg) brightness(110%) contrast(96%);
-            width: 41px;
-                &:hover{
+    .contacto-wp {
+        flex-direction: column;
+
+        a {
+            text-decoration: none;
+            margin-inline: 10px;
+            margin-bottom: 10px;
+
+            h5 {
+                font-size: 19px;
+                text-align: center;
+            }
+
+            .rrss-img {
+                filter: invert(88%) sepia(1%) saturate(2115%) hue-rotate(199deg) brightness(110%) contrast(96%);
+                width: 41px;
+
+                &:hover {
                     filter: brightness(0) saturate(100%) invert(57%) sepia(92%) saturate(417%) hue-rotate(101deg) brightness(90%) contrast(99%);
                 }
+            }
+        }
+    }
+
+    //Responsive para Exclusive Nuevos (newcars.html)
+
+    .new-cars-brands {
+        .nc-brands-models {
+            margin-inline: 5%;
+            padding-bottom: 50px;
+
+            .nc-brand {
+                img {
+                    width: 65px;
+                    margin-right: 12px;
+                }
+
+                .mercedes-nme {
+                    width: 110px;
+                }
+            }
+
+            .carousel {
+                margin-inline: 30px;
+
+                .carousel-inner {
+                    .carousel-item {
+                        div {
+                            img {
+                                max-width: 70%;
+                                min-width: 260px;
+                                margin-inline: 0px;
+                            }
+
+                            .nc-model-info {
+                                flex-direction: column;
+
+                                .nc-info {
+                                    color: rgb(231, 235, 253);
+                                    margin-right: 0px;
+                                    margin-top: 25px;
+
+                                    h4 {
+                                        font-size: 25px;
+                                        margin-bottom: 15px;
+                                    }
+
+                                    p {
+                                        font-size: 12px;
+                                    }
+                                }
+
+                                .nc-price {
+                                    h4 {
+                                        font-weight: bold;
+                                        font-size: 20px;
+                                        margin-bottom: 0px;
+                                        font-family: Arial, Helvetica, sans-serif;
+                                        margin-bottom: 0px;
+                                        margin-top: -160px;
+                                    }
+                                }
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        margin-inline: -40px;
+        margin-bottom: 180px;
+
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            max-width: 50%;
         }
     }
 }

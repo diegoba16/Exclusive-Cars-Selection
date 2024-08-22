@@ -136,4 +136,78 @@
             }
         }
     }
+        //Responsive para Exclusive Nuevos (newcars.html)
+
+        .new-cars-brands {
+            margin: 0px;
+            .nc-brands-models {
+                margin-inline: 1%;
+                padding-bottom: 50px;
+    
+                .nc-brand {
+                    img {
+                        width: 65px;
+                        margin-right: 12px;
+                    }
+    
+                    .mercedes-nme {
+                        width: 110px;
+                    }
+                }
+    
+                .carousel {
+                    margin-inline: 30px;
+    
+                    .carousel-inner {
+                        .carousel-item {
+                            div {
+                                img {
+                                    max-width: 90%;
+                                    min-width: 180px;
+                                    margin-inline: 0px;
+                                }
+    
+                                .nc-model-info {
+                                    flex-direction: column;
+    
+                                    .nc-info {
+                                        margin-right: 0px;
+                                        margin-top: 25px;
+    
+                                        h4 {
+                                            font-size: 21px;
+                                            margin-bottom: 15px;
+                                        }
+    
+                                        p {
+                                            font-size: 10px;
+                                        }
+                                    }
+    
+                                    .nc-price {
+                                        h4 {
+                                            font-size: 19px;
+                                            margin-top: 0px;
+                                        }
+                                    }
+                                }
+    
+                            }
+                        }
+                    }
+                }
+            }
+    
+        }
+    
+        .carousel-control-prev,
+        .carousel-control-next {
+            margin-inline: -30px;
+            margin-bottom: 180px;
+    
+            .carousel-control-prev-icon,
+            .carousel-control-next-icon {
+                max-width: 70%;
+            }
+        }
 }

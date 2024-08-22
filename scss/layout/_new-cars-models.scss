@@ -22,7 +22,7 @@
                 filter: invert(1);
             }
 
-            .mercedes-nme{
+            .mercedes-nme {
                 width: 130px;
             }
         }
@@ -38,56 +38,60 @@
                         color: white;
                         display: flex;
                         flex-wrap: wrap;
-                        
+                        justify-content: center;
+
                         img {
                             max-width: 52%;
-                            min-width: 600px;
                             border-radius: 5px;
+                            margin-bottom: 20px;
+                            margin-inline: 20px;
                         }
 
                         .nc-model-info {
-                            display: block;
-                            margin-left: 30px;
-                            max-width: 30%;
                             display: flex;
-                            align-items: center;
+                            min-height: 350px;
 
                             .nc-info {
                                 color: rgb(231, 235, 253);
                                 margin-right: 15px;
+                                display: flex;
+                                flex-direction: column;
+                                margin: auto;
 
                                 h4 {
                                     font-weight: bold;
                                     font-size: 30px;
                                     margin-bottom: 15px;
                                     font-family: Arial, Helvetica, sans-serif;
+                                    margin-bottom: 30px;
                                 }
-
-                                flex-direction: column;
-                                margin-bottom: 8px;
 
                                 p {
                                     font-family: Arial, Helvetica, sans-serif;
                                     font-size: 15px;
+                                    max-width: 300px;
+
                                     br {
                                         display: block;
                                         content: "";
                                         margin-top: 10px;
                                     }
-                                    strong{
+
+                                    strong {
                                         font-weight: 750;
                                         color: rgb(235, 240, 255);
                                     }
                                 }
                             }
+
+                            .nc-price {
+                                text-align: center;
+                                padding-inline: 20px;
+                                align-items: center;
+                                color: rgb(231, 235, 253);
+                            }
                         }
 
-                        .nc-price {
-                            text-align: center;
-                            padding-inline: 10px;
-                            align-items: center;
-                            color: rgb(231, 235, 253);
-                        }
                     }
                 }
             }
@@ -99,4 +103,5 @@
 .carousel-control-prev,
 .carousel-control-next {
     margin-inline: -120px;
+    margin-bottom: 0px;
 }

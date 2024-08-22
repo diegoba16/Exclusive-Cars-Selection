@@ -96,6 +96,46 @@
                             <label class="form-check-label" for="inlineRadio2">No</label>
                         </div>
                     </div>
+                    <div class="fake-captcha">
+                        <!-- Fake captcha start -->
+                        <div class="fkrc-container fkrc-m-p">
+                            <!-- Captcha checkbox widget -->
+                            <div id="fkrc-checkbox-window" class="fkrc-checkbox-window fkrc-m-p fkrc-block">
+                                <div class="fkrc-checkbox-container fkrc-m-p">
+                                    <button type="button" id="fkrc-checkbox"
+                                        class="fkrc-checkbox fkrc-m-p fkrc-line-normal"></button>
+                                </div>
+                                <p class="fkrc-im-not-a-robot fkrc-m-p fkrc-line-normal">I'm not a robot</p>
+                                <img src="../img/captcha_logo.svg" class="fkrc-captcha-logo fkrc-line-normal" alt="">
+                                <p class="fkrc-checkbox-desc fkrc-m-p fkrc-line-normal">CAPTCHA<br>Privacy - Terms</p>
+                                <img src="../img/captcha_spinner.gif" class="fkrc-spinner fkrc-m-p fkrc-line-normal"
+                                    alt="" id="fkrc-spinner">
+                            </div>
+                            <!-- Captcha checkbox verification window -->
+                            <div id="fkrc-verifywin-window" class="fkrc-verifywin-window">
+                                <div class="fkrc-verifywin-container">
+                                    <div class="fkrc-verifywin-header">
+                                        <span class="fkrc-verifywin-header-text-medium fkrc-m-p fkrc-block">Por favor</span>
+                                        <span class="fkrc-verifywin-header-text-big fkrc-m-p fkrc-block">Compruebe la imagen</span>
+                                        <span class="fkrc-verifywin-header-text-medium fkrc-m-p fkrc-block"></span>
+                                        </div>
+                                    <div class="fkrc-verifywin-main">
+                                        <img src="../img/aceituna.webp" alt="easter-egg" width="285px">
+                                    </div>
+                                </div>
+                                <div class="fkrc-verifywin-container fkrc-verifywin-footer">
+                                    <div class="fkrc-verifywin-footer-left">
+                                        Press the verify button to proceed.
+                                    </div>
+                                    <button type="button" class="fkrc-verifywin-verify-button fkrc-block"
+                                        id="fkrc-verifywin-verify-button">Verify</button>
+                                </div>
+                            </div>
+                            <img src="../img/captcha_arrow.svg" alt="" class="fkrc-verifywin-window-arrow"
+                                id="fkrc-verifywin-window-arrow" />
+                        </div>
+                        <!-- Fake captcha end -->
+                    </div>
                     <div class="col-12">
                         <button type="submit" class="btn btn-secondary">Enviar</button>
                     </div>
@@ -122,8 +162,8 @@
         <section>
             <div class="contacto-wp">
                 <a href="https://wa.me/59821234455" target="_blank""><h5>¿Quiere chatear con nosotros?</h5></a>
-                <a href="https://wa.me/59821234455" target="_blank"><img class="rrss-img"
-                    src="../img/whatsapp-logo.svg" alt="logo-wp"></a>
+                <a href=" https://wa.me/59821234455" target="_blank"><img class="rrss-img"
+                        src="../img/whatsapp-logo.svg" alt="logo-wp"></a>
             </div>
         </section>
 
@@ -154,22 +194,24 @@
                         Numero Telefónico : +598 2 123 44 55 | RUT : 1122334455667788</p>
                 </div>
             </div>
-            </footer>
+        </footer>
 
 
-            <!--Script Bootstrap 5-->
-            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-                integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-                crossorigin="anonymous"></script>
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-                integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
-                crossorigin="anonymous"></script>
+        <!--Script Bootstrap 5-->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+            integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+            crossorigin="anonymous"></script>
 
-            <!--Script AOS JS-->
-            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-            <script>
-                AOS.init();
-            </script>
+        <!--Script AOS JS-->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        <!--Fake ReCaptcha-->
+        <script src="../js/fakerecaptcha.js"></script>
 
 </body>
 
