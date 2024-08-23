@@ -762,10 +762,10 @@ footer .footer-container .footer-info p {
 @media only screen and (max-width: 991px) {
   header {
     width: 100%;
-    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 70%, rgb(240, 241, 250) 100%), url(../img/porche_header_background_mvl.jpg);
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 80%, rgb(240, 241, 250) 100%), url(../img/porche_header_background_mvl4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 700px;
+    height: 400px;
   }
   .button-navbar li a {
     text-decoration: none;
@@ -779,15 +779,15 @@ footer .footer-container .footer-info p {
     margin-right: 30px;
   }
   .header-container {
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 15px;
-    min-height: 95px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    min-height: 70px;
     top: 0;
     background-color: rgba(45, 74, 79, 0.881);
   }
   .header-container .navbar-brand img {
-    width: 140px;
+    width: 100px;
   }
   .button-navbar li a:hover {
     border-radius: 3px;
@@ -802,7 +802,7 @@ footer .footer-container .footer-info p {
   }
   .after-header {
     display: block;
-    margin-top: 100px;
+    margin-top: 50px;
     height: 200px;
     text-align: center;
   }
@@ -825,9 +825,9 @@ footer .footer-container .footer-info p {
   }
   .parrafos {
     text-align: center;
-    margin-top: 150px;
+    margin-top: 30px;
     margin-bottom: 10px;
-    margin-bottom: 200px;
+    margin-bottom: 70px;
   }
   .parrafos h1 {
     margin-bottom: 50px;
@@ -975,7 +975,7 @@ footer .footer-container .footer-info p {
   }
   .title {
     font-size: 45px;
-    margin-top: 40px;
+    margin-top: 120px;
   }
   .contact-form {
     display: flex;
