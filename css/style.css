@@ -87,7 +87,7 @@ header {
 
 .parrafos {
   text-align: center;
-  margin-top: 70px;
+  margin-top: 60px;
   margin-bottom: 150px;
 }
 .parrafos h1 {
@@ -841,7 +841,7 @@ footer .footer-container .footer-info p {
     font-size: 50px;
     padding: 0px;
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
   .grid-container {
     margin-left: 0px;
@@ -1177,7 +1177,7 @@ footer .footer-container .footer-info p {
     height: 700px;
   }
   .parrafos {
-    margin-top: 200px;
+    margin-top: 80px;
     margin-bottom: 240px;
   }
   .parrafos h1 {
