@@ -1155,6 +1155,20 @@ footer .footer-container .footer-info p {
     margin-top: 27px;
     margin-left: -14px;
   }
+  .nc-grid .nc-grid-container .nc-item:hover {
+    border: 2px solid rgba(50, 49, 71, 0.904);
+    background: #939ad8;
+    background: linear-gradient(180deg, rgba(147, 154, 216, 0.7568277311) 0%, rgba(164, 185, 217, 0.6111694678) 65%, rgba(179, 195, 212, 0.168592437) 100%);
+    transition: 300ms;
+  }
+  .nc-grid .nc-grid-container .nc-item:hover .logo-img {
+    opacity: 0;
+    transition: 500ms;
+  }
+  .nc-grid .nc-grid-container .nc-item:hover .logo-nme {
+    opacity: 1;
+    transition: 1s;
+  }
 }
 @media only screen and (min-width: 1919px) {
   header {

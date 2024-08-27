@@ -505,6 +505,21 @@
                         margin-top: 27px;
                         margin-left: -14px;
                     }
+
+                    &:hover {
+                        border: 2px solid rgba(50, 49, 71, 0.904);
+                        background: #939ad8;
+                        background: linear-gradient(180deg, rgba(147, 154, 216, 0.756827731092437) 0%, rgba(164, 185, 217, 0.6111694677871149) 65%, rgba(179, 195, 212, 0.16859243697478987) 100%);
+                        transition: 300ms;
+                        .logo-img {
+                            opacity: 0;
+                            transition: 500ms;
+                        }
+                        .logo-nme {
+                            opacity: 1;
+                            transition: 1s;
+                        }
+                    }
                 }
             }
     }
