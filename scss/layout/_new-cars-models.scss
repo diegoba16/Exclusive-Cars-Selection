@@ -19,11 +19,23 @@
             }
 
             .brand-nme {
-                filter: invert(1);
+                filter: brightness(0) saturate(100%) invert(93%) sepia(12%) saturate(160%) hue-rotate(195deg) brightness(99%) contrast(97%);
             }
 
             .mercedes-nme {
-                width: 130px;
+                width: 140px;
+            }
+
+            .audi-lgo{
+                width: 120px;
+            }
+
+            .porsche-lgo{
+                width: 65px;
+            }
+
+            .porsche-nme{
+                width: 140px;
             }
         }
 
@@ -100,8 +112,8 @@
 
 }
 
-.carousel-control-prev,
-.carousel-control-next {
+.nc-button-prev,
+.nc-button-next {
     margin-inline: -120px;
     margin-bottom: 0px;
 }

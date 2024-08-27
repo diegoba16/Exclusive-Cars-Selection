@@ -51,27 +51,20 @@
         margin-right: 200px;
     }
 
-    .after-header {
-        display: block;
-        margin-top: 50px;
-        height: 200px;
-        text-align: center;
-    }
 
-    .after-header h3 {
-        color: #000000;
-        font-weight: bolder;
-        font-size: 50px;
-        padding: 0px;
-        margin-left: 0px;
-        margin-top: 0px;
-        text-align: center;
-    }
 
     .carousel-autos {
-        padding-left: 0px;
-        padding-right: 0px;
+        margin-inline: 7px;
         padding-top: 10px;
+        margin-bottom: 190px;
+            h3{
+                color: #000000;
+                font-weight: bolder;
+                font-size: 50px;
+                padding-inline: 50px;
+                text-align: center;
+                margin-bottom: 20px;
+            }
     }
 
     .carousel-inner {
@@ -348,7 +341,7 @@
     .new-cars-brands {
         .nc-brands-models {
             margin-inline: 5%;
-            padding-bottom: 50px;
+            padding-bottom: 100px;
 
             .nc-brand {
                 img {
@@ -359,6 +352,18 @@
                 .mercedes-nme {
                     width: 110px;
                 }
+
+                .audi-lgo{
+                    width: 90px;
+                }
+
+                .porsche-lgo{
+                    width: 50px;
+                }
+    
+                .porsche-nme{
+                    width: 115px;
+                }
             }
 
             .carousel {
@@ -368,13 +373,13 @@
                     .carousel-item {
                         div {
                             img {
-                                max-width: 70%;
+                                max-width: 85%;
                                 min-width: 260px;
                                 margin-inline: 0px;
                             }
-
                             .nc-model-info {
                                 flex-direction: column;
+                                min-height: 380px;
 
                                 .nc-info {
                                     color: rgb(231, 235, 253);
@@ -382,12 +387,12 @@
                                     margin-top: 25px;
 
                                     h4 {
-                                        font-size: 25px;
+                                        font-size: 27px;
                                         margin-bottom: 15px;
                                     }
 
                                     p {
-                                        font-size: 12px;
+                                        font-size: 14px;
                                     }
                                 }
 
@@ -398,7 +403,7 @@
                                         margin-bottom: 0px;
                                         font-family: Arial, Helvetica, sans-serif;
                                         margin-bottom: 0px;
-                                        margin-top: -160px;
+                                        margin-top: -5px;
                                     }
                                 }
                             }
@@ -411,14 +416,97 @@
 
     }
 
-    .carousel-control-prev,
-    .carousel-control-next {
+    .nc-button-prev,
+    .nc-button-next {
         margin-inline: -40px;
         margin-bottom: 180px;
 
-        .carousel-control-prev-icon,
-        .carousel-control-next-icon {
+        .nc-button-prev-icon,
+        .nc-button-next-icon {
             max-width: 50%;
         }
     }
+
+    .nc-grid{
+        h3{
+            margin-bottom: 40px;
+        }
+        .nc-grid-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-left: 3%;
+            margin-right: 3%;
+                .nc-item {
+                    border: 2px solid rgba(160, 183, 218, 0.226);
+                    background-color: rgba(62, 76, 95, 0.158);
+                    padding: 15px;
+                    margin: 20px;
+                    width: 120px;
+                    height: 120px;
+                    .logo-img {
+                        width: 94px;
+                        position: absolute;
+                        margin-top: -4px;
+                        margin-left: -4px;
+                        z-index: 1;
+                        opacity: 1;           
+                    }
+                    
+                    .logo-nme {
+                        width: 108px;
+                        position: absolute;
+                        margin-top: 35px;
+                        margin-left: -11px;
+                        z-index: 1;
+                        opacity: 0;
+                    }
+                    .audi-img {
+                        width: 94px;
+                        margin-top: 26px;
+                        margin-left: -4px;
+                    }
+                    .porsche-img {
+                        width: 74px;
+                        margin-top: -4px;
+                        margin-left: 6px;
+                    }
+                    .ferrari-img {
+                        width: 100px;
+                        margin-top: -7px;
+                        margin-left: -7px;
+                    }
+                    .lamborghini_img {
+                        width: 82px;
+                        margin-top: -4px;
+                        margin-left: 2px;
+                    }
+                    .bmw-name {
+                        margin-top: 18px;
+                    }
+                    .merc-name {
+                        margin-top: 35px;
+                    }
+                    .audi-name {
+                        margin-top: 32px;
+                        margin-left: -11px;
+                    }
+                    .porsche-name {
+                        width: 110px;
+                        margin-top: 39px;
+                        margin-left: -12px;
+                    }
+                    .ferrari-name {
+                        margin-left: -11px;
+                        margin-top: 30px;
+                    }
+                    .lamborghini-name {
+                        width: 114px;
+                        margin-top: 27px;
+                        margin-left: -14px;
+                    }
+                }
+            }
+    }
+    
 }

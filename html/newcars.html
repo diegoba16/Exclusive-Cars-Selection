@@ -81,30 +81,38 @@
                 kilómetro.
             </p>
         </section>
-        <section class="new-cars-grid">
+        <section class="new-cars-grid nc-grid">
             <h3 data-aos="fade-up" data-aos-duration="1500">Marcas</h3>
-            <nav class="grid-container">
-                <div class="grid-item" data-aos="zoom-in-up" data-aos-duration="1500">
-                    <img class="logo-nme bmw-name" src="../img/bmw_name.png" alt="bmw-name"><img
-                        class="logo-img bmw_img" src="../img/bmw_logo.svg" alt="bmw_logo">
-                </div>
-                <div class="grid-item" data-aos="zoom-in-up" data-aos-duration="1500">
-                    <img class="logo-nme merc-name" src="../img/mercedes_name.png" alt="mercedes-name"><img
-                        class="logo-img merc-img" src="../img/mercedes-logo.svg" alt="mercedes_logo">
-                </div>
-                <div class="grid-item" data-aos="zoom-in-up" data-aos-duration="1500">
-                    <img class="logo-nme audi-name" src="../img/audi_name.png" alt="audi-name"><img
-                        class="logo-img audi-img" src="../img/audi_logo.svg" alt="audi_logo">
-                </div>
-                <div class="grid-item" data-aos="zoom-in-up" data-aos-duration="1500">
-                    <img class="logo-nme porsche-name" src="../img/porsche-name.png" alt="porsche-name"><img
-                        class="logo-img porsche-img" src="../img/porsche_logo.svg" alt="porsche_logo">
-                </div>
-                <div class="grid-item" data-aos="zoom-in-up" data-aos-duration="1500">
+            <nav class="grid-container nc-grid-container">
+                <a href="#BMW">
+                    <div class="grid-item nc-item" data-aos="zoom-in-up" data-aos-duration="1500">
+                        <img class="logo-nme bmw-name" src="../img/bmw_name.png" alt="bmw-name"><img
+                            class="logo-img bmw_img" src="../img/bmw_logo.svg" alt="bmw_logo">
+                    </div>
+                </a>
+                <a href="#Mercedes">
+                    <div class="grid-item nc-item" data-aos="zoom-in-up" data-aos-duration="1500">
+                        <img class="logo-nme merc-name" src="../img/mercedes_name.png" alt="mercedes-name"><img
+                            class="logo-img merc-img" src="../img/mercedes-logo.svg" alt="mercedes_logo">
+                    </div>
+                </a>
+                <a href="#Audi">
+                    <div class="grid-item nc-item" data-aos="zoom-in-up" data-aos-duration="1500">
+                        <img class="logo-nme audi-name" src="../img/audi_name.png" alt="audi-name"><img
+                            class="logo-img audi-img" src="../img/audi_logo.svg" alt="audi_logo">
+                    </div>
+                </a>
+                <a href="#Porsche">
+                    <div class="grid-item nc-item" data-aos="zoom-in-up" data-aos-duration="1500">
+                        <img class="logo-nme porsche-name" src="../img/porsche-name.png" alt="porsche-name"><img
+                            class="logo-img porsche-img" src="../img/porsche_logo.svg" alt="porsche_logo">
+                    </div>
+                </a>
+                <div class="grid-item nc-item" data-aos="zoom-in-up" data-aos-duration="1500">
                     <img class="logo-nme ferrari-name" src="../img/ferrari_name.png" alt="ferrari-name"><img
                         class="logo-img ferrari-img" src="../img/ferrari-logo.png" alt="ferrari_logo">
                 </div>
-                <div class="grid-item" data-aos="zoom-in-up" data-aos-duration="1500">
+                <div class="grid-item nc-item" data-aos="zoom-in-up" data-aos-duration="1500">
                     <img class="logo-nme lamborghini-name" src="../img/lamborghini_name.png" alt="lamborghini-name"><img
                         class="logo-img lamborghini_img" src="../img/lamborghini-logo.svg" alt="lamborghini_logo">
                 </div>
@@ -112,12 +120,12 @@
         </section>
         <section>
             <div class="new-cars-brands">
-                <div class="nc-brands-models">
+                <div id="BMW" class="nc-brands-models">
                     <div class="nc-brand">
                         <img class="brand-lgo" src="../img/bmw_logo.svg" alt="bmw_logo">
                         <img class="brand-nme" src="../img/bmw_name.png" alt="bmw-name">
                     </div>
-                    <div id="carouselBMW" class="carousel slide" data-bs-ride="carousel">
+                    <div id="carouselBMW" class="carousel slide">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <div>
@@ -198,25 +206,25 @@
                                 </div>
                             </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselBMW"
+                        <button class="carousel-control-prev nc-button-prev" type="button" data-bs-target="#carouselBMW"
                             data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="carousel-control-prev-icon nc-button-prev-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Previous</span>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselBMW"
+                        <button class="carousel-control-next nc-button-next" type="button" data-bs-target="#carouselBMW"
                             data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="carousel-control-next-icon nc-button-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
                         </button>
                     </div>
                 </div>
 
-                <div class="nc-brands-models">
+                <div id="Mercedes" class="nc-brands-models">
                     <div class="nc-brand">
                         <img class="brand-lgo" src="../img/mercedes-logo.svg" alt="mercedes-logo">
                         <img class="brand-nme mercedes-nme" src="../img/mercedes_name.png" alt="mercedes-name">
                     </div>
-                    <div id="carouselMercedes" class="carousel slide" data-bs-ride="carousel">
+                    <div id="carouselMercedes" class="carousel slide">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <div>
@@ -297,18 +305,259 @@
                                 </div>
                             </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselMercedes"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <button class="carousel-control-prev nc-button-prev" type="button"
+                            data-bs-target="#carouselMercedes" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon nc-button-prev-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Previous</span>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselMercedes"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <button class="carousel-control-next nc-button-next" type="button"
+                            data-bs-target="#carouselMercedes" data-bs-slide="next">
+                            <span class="carousel-control-next-icon nc-button-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
                         </button>
                     </div>
                 </div>
+
+                <div id="Audi" class="nc-brands-models">
+                    <div class="nc-brand">
+                        <img class="brand-lgo audi-lgo" src="../img/audi_logo.png" alt="audi-logo">
+                        <img class="brand-nme audi-nme" src="../img/audi_name.png" alt="audi-name">
+                    </div>
+                    <div id="carouselAudi" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div>
+                                    <img src="../img/new_cars_img/Audi_A1.webp" alt="Audi_A1">
+                                    <div class="nc-model-info">
+                                        <div class="nc-info">
+                                            <h4>A1</h4>
+                                            <p><strong>A1 25 TFSI:</strong> Compacto y ágil con 95 CV, perfecto para la
+                                                vida urbana.<br>
+                                                <strong>A1 30 TFSI:</strong> Rendimiento equilibrado con 110 CV, combina
+                                                eficiencia y estilo.<br>
+                                                <strong>A1 40 TFSI S line:</strong> Deportividad en un paquete compacto
+                                                con 200 CV, diseñado para destacar.
+                                            </p>
+                                        </div>
+                                        <div class="nc-price">
+                                            <h4>Desde<br> U$S 53.990</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div>
+                                    <img src="../img/new_cars_img/Audi_A3.webp" alt="Audi_A3">
+                                    <div class="nc-model-info">
+                                        <div class="nc-info">
+                                            <h4>A3</h4>
+                                            <p><strong>A3 30 TFSI:</strong> Elegancia compacta con 110 CV, ideal para
+                                                una conducción diaria eficiente y cómoda.<br>
+                                                <strong>A3 35 TFSI:</strong> Potencia equilibrada con 150 CV, combina
+                                                rendimiento y sofisticación.<br>
+                                                <strong>A3 45 TFSI quattro S line:</strong> Deportividad con 245 CV y
+                                                tracción total, diseñado para un manejo dinámico y emocionante.
+                                            </p>
+                                        </div>
+                                        <div class="nc-price">
+                                            <h4>Desde<br> U$S 56.990</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div>
+                                    <img src="../img/new_cars_img/Audi_A4.webp" alt="Audi_A4">
+                                    <div class="nc-model-info">
+                                        <div class="nc-info">
+                                            <h4>A4</h4>
+                                            <p><strong>A4 35 TFSI:</strong> Elegancia y eficiencia con 150 CV, ideal
+                                                para quienes buscan un sedán cómodo y moderno.<br>
+                                                <strong>A4 40 TFSI:</strong> Potencia y confort con 204 CV, combina un
+                                                rendimiento sólido con un estilo sofisticado.<br>
+                                                <strong>A4 45 TFSI quattro S line:</strong> Deportividad y tracción
+                                                total con 265 CV, diseñado para ofrecer una conducción dinámica y
+                                                segura.
+                                            </p>
+                                        </div>
+                                        <div class="nc-price">
+                                            <h4>Desde<br> U$S 76.990</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div>
+                                    <img src="../img/new_cars_img/Audi_RS6.webp" alt="Audi_RS6">
+                                    <div class="nc-model-info">
+                                        <div class="nc-info">
+                                            <h4>RS6</h4>
+                                            <p>El Audi RS6 2024 combina lujo y potencia con un motor V8 biturbo de 600
+                                                CV, acelerando de 0 a 100 km/h en solo 3,6 segundos. Con una velocidad
+                                                máxima de 305 km/h, ofrece un rendimiento excepcional en un elegante
+                                                formato familiar.
+                                                <br>¡Siente la emoción del Audi RS6 en cada viaje!
+                                            </p>
+                                        </div>
+                                        <div class="nc-price">
+                                            <h4>Desde<br> U$S 151.990</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div>
+                                    <img src="../img/new_cars_img/Audi_A8.webp" alt="Audi_A8">
+                                    <div class="nc-model-info">
+                                        <div class="nc-info">
+                                            <h4>A8</h4>
+                                            <p><strong>A8 60 TFSI e:</strong> Potencia híbrida con 462 CV, combina
+                                                desempeño dinámico con eficiencia ecológica.<br>
+                                                <strong>S8:</strong> Máximo rendimiento con 571 CV, lujo y deportividad
+                                                en su forma más pura.<br>
+                                            </p>
+                                        </div>
+                                        <div class="nc-price">
+                                            <h4>Desde<br> U$S 151.990</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev nc-button-prev" type="button"
+                            data-bs-target="#carouselAudi" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon nc-button-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next nc-button-next" type="button"
+                            data-bs-target="#carouselAudi" data-bs-slide="next">
+                            <span class="carousel-control-next-icon nc-button-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div id="Porsche" class="nc-brands-models">
+                    <div class="nc-brand">
+                        <img class="brand-lgo porsche-lgo" src="../img/porsche_logo.svg" alt="porsche_logo">
+                        <img class="brand-nme porsche-nme" src="../img/porsche-name.png" alt="porsche_name">
+                    </div>
+                    <div id="carouselPorsche" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div>
+                                    <img src="../img/new_cars_img/Porsche_718.webp" alt="Porsche_718">
+                                    <div class="nc-model-info">
+                                        <div class="nc-info">
+                                            <h4>718</h4>
+                                            <p>El <strong>Porsche 718</strong> Dofrece deportividad pura, con opciones
+                                                de motor desde 300 CV hasta 500 CV en el Cayman GT4 RS. Ya sea en el
+                                                Cayman o el Boxster, cada modelo garantiza una conducción emocionante y
+                                                precisa, ideal para quienes buscan rendimiento y estilo.
+                                                <br>¡Vive la emoción al volante con el Porsche 718!
+                                            </p>
+                                        </div>
+                                        <div class="nc-price">
+                                            <h4>Desde<br> U$S 150.990</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div>
+                                    <img src="../img/new_cars_img/Porsche_911.webp" alt="Porsche_911">
+                                    <div class="nc-model-info">
+                                        <div class="nc-info">
+                                            <h4>911</h4>
+                                            <p>El <strong>Porsche 911</strong> combina lujo y rendimiento con opciones
+                                                de motor desde 385 CV hasta 580 CV, ofreciendo una conducción dinámica y
+                                                precisa. Ya sea en versiones Carrera, Carrera S o Turbo, cada 911
+                                                mantiene su icónica silueta y tecnología de vanguardia, garantizando una
+                                                experiencia de manejo inigualable.
+                                                <br>¡Descubre la leyenda viva del automovilismo con el Porsche 911!
+                                            </p>
+                                        </div>
+                                        <div class="nc-price">
+                                            <h4>Desde<br> U$S 189.000</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div>
+                                    <img src="../img/new_cars_img/Porsche_911_GT3RS.webp" alt="Porsche_911_GT3RS">
+                                    <div class="nc-model-info">
+                                        <div class="nc-info">
+                                            <h4>911 GT3 - RS</h4>
+                                            <p>El <strong>911 GT3</strong> ofrece 510 CV con una aceleración de 0 a 100
+                                                km/h en 3,4 segundos. El <strong>911 GT3 RS</strong> eleva el
+                                                rendimiento con 525 CV,
+                                                alcanzando 100 km/h en 3,2 segundos. Ambos modelos están diseñados para
+                                                una conducción extrema y emocionante en pista.
+                                                <br>¡Experimenta la adrenalina con el Porsche 911 GT3 y GT3 RS!
+                                            </p>
+                                        </div>
+                                        <div class="nc-price">
+                                            <h4>Desde<br> U$S 295.990</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div>
+                                    <img src="../img/new_cars_img/Porsche_Taycan.webp" alt="Porsche_Taycan">
+                                    <div class="nc-model-info">
+                                        <div class="nc-info">
+                                            <h4>Taycan</h4>
+                                            <p>El <strong>Taycan</strong> ofrece una emocionante experiencia eléctrica
+                                                con versiones que
+                                                van desde 408 CV en el Taycan 4, hasta 625 CV en el Taycan Turbo. Con
+                                                una aceleración de 0 a 100 km/h en tan solo 3,2 segundos y una velocidad
+                                                máxima de hasta 260 km/h, combina rendimiento deportivo con tecnología
+                                                avanzada.
+                                                <br>¡Descubre el futuro de la conducción con el Porsche Taycan!
+                                            </p>
+                                        </div>
+                                        <div class="nc-price">
+                                            <h4>Desde<br> U$S 190.990</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div>
+                                    <img src="../img/new_cars_img/Porsche_Macan.webp" alt="Audi_A8">
+                                    <div class="nc-model-info">
+                                        <div class="nc-info">
+                                            <h4>Macan</h4>
+                                            <p>El <strong>Macan</strong> ofrece un rendimiento deportivo en el segmento
+                                                de SUV, con versiones que van desde 265 CV en el Macan básico hasta 440
+                                                CV en el Macan GTS. Con una aceleración de 0 a 100 km/h en tan solo 4,3
+                                                segundos y una velocidad máxima de hasta 272 km/h, combina agilidad y
+                                                lujo en un formato versátil.
+                                                <br>¡Disfruta de la dinámica de conducción del Porsche Macan!
+                                            </p>
+                                        </div>
+                                        <div class="nc-price">
+                                            <h4>Desde<br> U$S 135.990</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev nc-button-prev" type="button"
+                            data-bs-target="#carouselPorsche" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon nc-button-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next nc-button-next" type="button"
+                            data-bs-target="#carouselPorsche" data-bs-slide="next">
+                            <span class="carousel-control-next-icon nc-button-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+
             </div>
 
         </section>

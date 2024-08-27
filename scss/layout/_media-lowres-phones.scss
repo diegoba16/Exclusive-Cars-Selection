@@ -3,8 +3,9 @@
 @media only screen and (max-width: 320px) {
     .header-container {
         min-height: 70px;
-        .navbar-brand{
-            img{
+
+        .navbar-brand {
+            img {
                 width: 100px;
             }
         }
@@ -19,6 +20,17 @@
         align-items: center;
     }
 
+    .carousel-autos {
+        margin-inline: 0px;
+        padding-top: 10px;
+            h3{
+                font-size: 30px;
+                padding-inline: 0px;
+                margin-bottom: 10px;
+            }
+    }
+
+
     .new-cars-grid h3 {
         color: #000000;
         font-size: 30px;
@@ -30,42 +42,45 @@
     .exlusive-selection-sale {
         .contenedor-sales {
             padding: 10px 5px;
+
             .car-upper {
 
-    
+
                 .car-img {
-    
+
                     img {
                         margin-bottom: 5px;
                         border-radius: 10px;
                         max-width: 98%;
                     }
                 }
-    
+
                 .car-info {
-                    h4{
+                    h4 {
                         text-align: center;
                         font-size: 29px;
                         font-weight: 600;
                     }
-                    ul{
+
+                    ul {
                         font-size: 13px;
                         font-weight: 300;
                         padding: 20px;
                     }
                 }
-    
+
                 .car-price {
                     margin-top: auto;
                     margin-bottom: 25px;
                     color: rgb(227, 227, 240);
-                    h5{
+
+                    h5 {
                         font-size: 25px;
                         font-weight: 700;
                     }
                 }
             }
-    
+
             .car-bottom {
                 .carousel-fade {
                     max-width: 96%;
@@ -112,102 +127,185 @@
     }
 
     //Responsive para Contacto (contact.html)
-    .title{
+    .title {
         font-size: 30px;
     }
 
-    .address-container{
-        .address{
+    .address-container {
+        .address {
             margin-inline: 5px;
             margin-bottom: 10px;
-            h4{
+
+            h4 {
                 font-size: 25px;
                 margin-bottom: 10px;
             }
-            p{
+
+            p {
                 font-size: 14px;
             }
         }
-        .map{
+
+        .map {
             margin-inline: 5px;
             margin-bottom: 10px;
-            h4{
+
+            h4 {
                 font-size: 25px;
             }
         }
     }
-        //Responsive para Exclusive Nuevos (newcars.html)
 
-        .new-cars-brands {
-            margin: 0px;
-            .nc-brands-models {
-                margin-inline: 1%;
-                padding-bottom: 50px;
-    
-                .nc-brand {
-                    img {
-                        width: 65px;
-                        margin-right: 12px;
-                    }
-    
-                    .mercedes-nme {
-                        width: 110px;
-                    }
+    //Responsive para Exclusive Nuevos (newcars.html)
+
+    .new-cars-brands {
+        margin: 0px;
+
+        .nc-brands-models {
+            margin-inline: 1%;
+            padding-bottom: 50px;
+
+            .nc-brand {
+                img {
+                    width: 65px;
+                    margin-right: 12px;
                 }
-    
-                .carousel {
-                    margin-inline: 30px;
-    
-                    .carousel-inner {
-                        .carousel-item {
-                            div {
-                                img {
-                                    max-width: 90%;
-                                    min-width: 180px;
-                                    margin-inline: 0px;
-                                }
-    
-                                .nc-model-info {
-                                    flex-direction: column;
-    
-                                    .nc-info {
-                                        margin-right: 0px;
-                                        margin-top: 25px;
-    
-                                        h4 {
-                                            font-size: 21px;
-                                            margin-bottom: 15px;
-                                        }
-    
-                                        p {
-                                            font-size: 10px;
-                                        }
-                                    }
-    
-                                    .nc-price {
-                                        h4 {
-                                            font-size: 19px;
-                                            margin-top: 0px;
-                                        }
-                                    }
-                                }
-    
+
+                .mercedes-nme {
+                    width: 110px;
+                }
+            }
+
+            .carousel {
+                margin-inline: 30px;
+
+                .carousel-inner {
+                    .carousel-item {
+                        div {
+                            img {
+                                max-width: 90%;
+                                min-width: 180px;
+                                margin-inline: 0px;
                             }
+
+                            .nc-model-info {
+                                flex-direction: column;
+
+                                .nc-info {
+                                    margin-right: 0px;
+                                    margin-top: 25px;
+
+                                    h4 {
+                                        font-size: 21px;
+                                        margin-bottom: 15px;
+                                    }
+
+                                    p {
+                                        font-size: 10px;
+                                    }
+                                }
+
+                                .nc-price {
+                                    h4 {
+                                        font-size: 19px;
+                                        margin-top: 0px;
+                                    }
+                                }
+                            }
+
                         }
                     }
                 }
             }
-    
         }
-    
-        .carousel-control-prev,
-        .carousel-control-next {
-            margin-inline: -30px;
-            margin-bottom: 180px;
-    
-            .carousel-control-prev-icon,
-            .carousel-control-next-icon {
-                max-width: 70%;
+
+    }
+
+    .nc-button-prev,
+    .nc-button-next {
+        margin-inline: -30px;
+        margin-bottom: 180px;
+
+        .nc-button-prev-icon,
+        .nc-button-next-icon {
+            max-width: 70%;
+        }
+    }
+
+    .nc-grid-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 0px;
+        margin-right: 0px;
+            .nc-item {
+                border: 2px solid rgba(160, 183, 218, 0.226);
+                background-color: rgba(62, 76, 95, 0.158);
+                padding: 15px;
+                margin: 20px;
+                width: 120px;
+                height: 120px;
+                .logo-img {
+                    width: 94px;
+                    position: absolute;
+                    margin-top: -4px;
+                    margin-left: -4px;
+                    z-index: 1;
+                    opacity: 1;           
+                }
+                
+                .logo-nme {
+                    width: 108px;
+                    position: absolute;
+                    margin-top: 35px;
+                    margin-left: -11px;
+                    z-index: 1;
+                    opacity: 0;
+                }
+                .audi-img {
+                    width: 94px;
+                    margin-top: 26px;
+                    margin-left: -4px;
+                }
+                .porsche-img {
+                    width: 74px;
+                    margin-top: -4px;
+                    margin-left: 6px;
+                }
+                .ferrari-img {
+                    width: 100px;
+                    margin-top: -7px;
+                    margin-left: -7px;
+                }
+                .lamborghini_img {
+                    width: 82px;
+                    margin-top: -4px;
+                    margin-left: 2px;
+                }
+                .bmw-name {
+                    margin-top: 18px;
+                }
+                .merc-name {
+                    margin-top: 35px;
+                }
+                .audi-name {
+                    margin-top: 32px;
+                    margin-left: -11px;
+                }
+                .porsche-name {
+                    width: 110px;
+                    margin-top: 39px;
+                    margin-left: -12px;
+                }
+                .ferrari-name {
+                    margin-left: -11px;
+                    margin-top: 30px;
+                }
+                .lamborghini-name {
+                    width: 114px;
+                    margin-top: 27px;
+                    margin-left: -14px;
+                }
             }
         }
 }

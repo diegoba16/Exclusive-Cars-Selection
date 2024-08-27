@@ -1,20 +1,15 @@
 // Media query para dar responsive a monitores y televisores high-res
 
-@media only screen and (min-width: 2400px) {
-    .after-header h3 {
-        color: #000000;
-        font-family: "Montserrat", sans-serif;
-        font-weight: bolder;
-        font-size: 50px;
-        padding: 0px;
-        margin-left: 430px;
-        margin-top: 100px;
+@media only screen and (min-width: 1919px) {
 
-
+    header {
+        width: 100%;
+        background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 70%, rgba(240, 241, 250, 1) 100%), url(../img/porche_header_background.jpg);
+        height: 700px;
     }
 
     .parrafos {
-        margin-top: 330px;
+        margin-top: 200px;
         margin-bottom: 240px;
     }
 
@@ -35,8 +30,14 @@
     }
 
     .carousel-autos {
-        padding-left: 430px;
-        padding-right: 430px;
+        margin-inline: 20%;
+            h3{
+                color: #000000;
+                font-family: "Montserrat", sans-serif;
+                font-weight: bolder;
+                font-size: 50px;
+                padding: 0px;
+            }
     }
 
     .grid-container {
@@ -45,7 +46,7 @@
     }
 
     .grid-container .grid-item {
-        margin: 85px;
+        margin: 70px;
         margin-top: 60px;
         margin-bottom: 60px;
         padding: 50px;
