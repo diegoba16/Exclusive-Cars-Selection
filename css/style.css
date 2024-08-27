@@ -1199,6 +1199,9 @@ footer .footer-container .footer-info p {
     margin-bottom: 60px;
     padding: 50px;
   }
+  .new-cars-brands .nc-brands-models {
+    margin-inline: 18%;
+  }
 }
 @media only screen and (max-width: 320px) {
   .header-container {
