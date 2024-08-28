@@ -416,12 +416,28 @@ footer .footer-container .footer-info p {
 }
 .new-cars-brands .nc-brands-models .nc-brand .audi-lgo {
   width: 120px;
+  margin-right: 13px;
+}
+.new-cars-brands .nc-brands-models .nc-brand .audi-nme {
+  width: 74px;
 }
 .new-cars-brands .nc-brands-models .nc-brand .porsche-lgo {
   width: 65px;
 }
 .new-cars-brands .nc-brands-models .nc-brand .porsche-nme {
   width: 140px;
+}
+.new-cars-brands .nc-brands-models .nc-brand .ferrari-lgo {
+  width: 69px;
+}
+.new-cars-brands .nc-brands-models .nc-brand .ferrari-nme {
+  width: 90px;
+}
+.new-cars-brands .nc-brands-models .nc-brand .lamborghini-lgo {
+  margin-right: 10px;
+}
+.new-cars-brands .nc-brands-models .nc-brand .lamborghini-nme {
+  width: 125px;
 }
 .new-cars-brands .nc-brands-models .carousel {
   margin-inline: 30px;
@@ -1018,6 +1034,9 @@ footer .footer-container .footer-info p {
     margin-inline: 5%;
     padding-bottom: 100px;
   }
+  .new-cars-brands .nc-brands-models .nc-brand {
+    margin-left: 7px;
+  }
   .new-cars-brands .nc-brands-models .nc-brand img {
     width: 65px;
     margin-right: 12px;
@@ -1033,6 +1052,18 @@ footer .footer-container .footer-info p {
   }
   .new-cars-brands .nc-brands-models .nc-brand .porsche-nme {
     width: 115px;
+  }
+  .new-cars-brands .nc-brands-models .nc-brand .ferrari-lgo {
+    width: 50px;
+  }
+  .new-cars-brands .nc-brands-models .nc-brand .ferrari-nme {
+    width: 70px;
+  }
+  .new-cars-brands .nc-brands-models .nc-brand .lamborghini-lgo {
+    margin-right: 8px;
+  }
+  .new-cars-brands .nc-brands-models .nc-brand .lamborghini-nme {
+    width: 95px;
   }
   .new-cars-brands .nc-brands-models .carousel {
     margin-inline: 30px;
@@ -1069,7 +1100,7 @@ footer .footer-container .footer-info p {
   .nc-button-prev,
   .nc-button-next {
     margin-inline: -40px;
-    margin-bottom: 180px;
+    margin-bottom: 200px;
   }
   .nc-button-prev .nc-button-prev-icon,
   .nc-button-prev .nc-button-next-icon,
@@ -1333,18 +1364,43 @@ footer .footer-container .footer-info p {
     margin: 0px;
   }
   .new-cars-brands .nc-brands-models {
-    margin-inline: 1%;
+    margin-inline: 2%;
     padding-bottom: 50px;
   }
   .new-cars-brands .nc-brands-models .nc-brand img {
-    width: 65px;
-    margin-right: 12px;
+    width: 48px;
+    margin-right: 7px;
   }
   .new-cars-brands .nc-brands-models .nc-brand .mercedes-nme {
-    width: 110px;
+    width: 90px;
+  }
+  .new-cars-brands .nc-brands-models .nc-brand .audi-lgo {
+    width: 60px;
+    margin-right: 5px;
+  }
+  .new-cars-brands .nc-brands-models .nc-brand .audi-nme {
+    width: 48px;
+  }
+  .new-cars-brands .nc-brands-models .nc-brand .porsche-lgo {
+    width: 35px;
+  }
+  .new-cars-brands .nc-brands-models .nc-brand .porsche-nme {
+    width: 80px;
+  }
+  .new-cars-brands .nc-brands-models .nc-brand .ferrari-lgo {
+    width: 37px;
+  }
+  .new-cars-brands .nc-brands-models .nc-brand .ferrari-nme {
+    width: 60px;
+  }
+  .new-cars-brands .nc-brands-models .nc-brand .lamborghini-lgo {
+    margin-right: 5px;
+  }
+  .new-cars-brands .nc-brands-models .nc-brand .lamborghini-nme {
+    width: 75px;
   }
   .new-cars-brands .nc-brands-models .carousel {
-    margin-inline: 30px;
+    margin-inline: 20px;
   }
   .new-cars-brands .nc-brands-models .carousel .carousel-inner .carousel-item div img {
     max-width: 90%;
@@ -1371,8 +1427,8 @@ footer .footer-container .footer-info p {
   }
   .nc-button-prev,
   .nc-button-next {
-    margin-inline: -30px;
-    margin-bottom: 180px;
+    margin-inline: -20px;
+    margin-bottom: 250px;
   }
   .nc-button-prev .nc-button-prev-icon,
   .nc-button-prev .nc-button-next-icon,

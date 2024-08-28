@@ -344,6 +344,7 @@
             padding-bottom: 100px;
 
             .nc-brand {
+                margin-left: 7px;
                 img {
                     width: 65px;
                     margin-right: 12px;
@@ -363,6 +364,20 @@
     
                 .porsche-nme{
                     width: 115px;
+                }
+
+                .ferrari-lgo{
+                    width: 50px;
+                }
+                .ferrari-nme{
+                    width: 70px;
+                }
+
+                .lamborghini-lgo{
+                    margin-right: 8px;
+                }
+                .lamborghini-nme{
+                    width: 95px;
                 }
             }
 
@@ -419,7 +434,7 @@
     .nc-button-prev,
     .nc-button-next {
         margin-inline: -40px;
-        margin-bottom: 180px;
+        margin-bottom: 200px;
 
         .nc-button-prev-icon,
         .nc-button-next-icon {
